@@ -1,0 +1,23 @@
+[
+    {
+        "center_latitude": 33.872517300000005,
+        "center_longitude": -84.3370221,
+        "max_solar_count": 5369,
+        "max_yearly_generation": 3305118.3,
+        "max_solar_array_size": 10542.326
+    },
+    {
+        "center_latitude": 33.9286929,
+        "center_longitude": -84.35285929999999,
+        "max_solar_count": 90,
+        "max_yearly_generation": 53579.992,
+        "max_solar_array_size": 176.71994
+    },
+    {
+        "center_latitude": 33.8806004,
+        "center_longitude": -84.471221,
+        "max_solar_count": 5983,
+        "max_yearly_generation": 3657975.5,
+        "max_solar_array_size": 11747.948
+    }
+]
