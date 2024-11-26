@@ -1,2 +1,7 @@
 apikey.py
 __pycache__/
+
+coor.csv
+coor.numbers
+main.py
+result.json
