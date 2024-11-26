@@ -104,7 +104,7 @@ def process():
             address = row.get(ADDRESS, "unknown").replace(" ", "_").replace("/", "-")
             # Construct the filename dynamically
             filename = f"{ORIGIN_RESPONSE_DIR}/{storename}_{address}.json"
-            
+
             with open(filename, "w") as response_file:
                 json.dump(response, response_file, indent=4)
 
