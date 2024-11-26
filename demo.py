@@ -3,9 +3,10 @@ import requests
 import json
 import time
 import os
+from tqdm import tqdm
 
 # Macro
-# Define whether save original responses
+# Define whether to save original responses
 SAVE_ORIGIN_RESPONSE = True
 
 # Parameters
@@ -20,7 +21,7 @@ write_result_json = "result_split_data_6.json"
 # Extract attributes
 column_longitude = "LONGITUDE"
 column_latitude = "LATITUDE"
-# Diectory of saving original responses
+# Directory for saving original responses
 if SAVE_ORIGIN_RESPONSE:
     origin_response_dir = "origin_response_split_data_6"
 
@@ -64,7 +65,7 @@ def get_building_insights(latitude, longitude, quality="HIGH"):
                 print(f"Error for ({latitude}, {longitude}): {response['error']['message']}")
                 no_found_count += 1
                 return response, None
-        
+
         # Count the response quality
         if quality == "HIGH":
             high_quality_count += 1
@@ -111,7 +112,8 @@ if __name__ == "__main__":
         longitude_index = header.index(column_longitude)  # Find the index of "LONGITUDE"
         latitude_index = header.index(column_latitude)    # Find the index of "LATITUDE"
 
-        for row_index, row in enumerate(reader):
+        # Add tqdm for progress tracking
+        for row_index, row in tqdm(enumerate(reader), total=sum(1 for _ in open(read_src_csv)) - 1, desc="Processing rows"):
             # Total query count accumulates
             total_query_count += 1
 
