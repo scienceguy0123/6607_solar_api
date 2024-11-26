@@ -1,0 +1,1262 @@
+[
+    {
+        "center_latitude": 34.2573643,
+        "center_longitude": -85.0559815,
+        "max_solar_count": 467,
+        "max_yearly_generation": 269012.38,
+        "max_solar_array_size": 916.9801
+    },
+    {
+        "center_latitude": 34.2685257,
+        "center_longitude": -85.30477479999999,
+        "max_solar_count": 4262,
+        "max_yearly_generation": 2499984.8,
+        "max_solar_array_size": 8368.671
+    },
+    {
+        "center_latitude": 34.1810184,
+        "center_longitude": -85.180059,
+        "max_solar_count": 2918,
+        "max_yearly_generation": 1682984.4,
+        "max_solar_array_size": 5729.6533
+    },
+    {
+        "center_latitude": 34.3099589,
+        "center_longitude": -85.0990508,
+        "max_solar_count": 2277,
+        "max_yearly_generation": 1329485.1,
+        "max_solar_array_size": 4471.0146
+    },
+    {
+        "center_latitude": 34.3079763,
+        "center_longitude": -85.0992378,
+        "max_solar_count": 2567,
+        "max_yearly_generation": 1547752,
+        "max_solar_array_size": 5040.4453
+    },
+    {
+        "center_latitude": 34.3651732,
+        "center_longitude": -85.17450649999999,
+        "max_solar_count": 466,
+        "max_yearly_generation": 273020.88,
+        "max_solar_array_size": 915.01654
+    },
+    {
+        "center_latitude": 34.1642065,
+        "center_longitude": -85.18543369999999,
+        "max_solar_count": 3214,
+        "max_yearly_generation": 1875285.1,
+        "max_solar_array_size": 6310.865
+    },
+    {
+        "center_latitude": 34.3071474,
+        "center_longitude": -85.095447,
+        "max_solar_count": 625,
+        "max_yearly_generation": 357615.4,
+        "max_solar_array_size": 1227.2218
+    },
+    {
+        "center_latitude": 34.1664291,
+        "center_longitude": -85.1835962,
+        "max_solar_count": 1899,
+        "max_yearly_generation": 1119722.9,
+        "max_solar_array_size": 3728.7908
+    },
+    {
+        "center_latitude": 34.3426554,
+        "center_longitude": -85.1750893,
+        "max_solar_count": 4966,
+        "max_yearly_generation": 2997275.5,
+        "max_solar_array_size": 9751.014
+    },
+    {
+        "center_latitude": 34.387035499999996,
+        "center_longitude": -85.1669951,
+        "max_solar_count": 983,
+        "max_yearly_generation": 589786.3,
+        "max_solar_array_size": 1930.1744
+    },
+    {
+        "center_latitude": 34.2599333,
+        "center_longitude": -85.2342791,
+        "max_solar_count": 1000,
+        "max_yearly_generation": 592055.6,
+        "max_solar_array_size": 1963.5548
+    },
+    {
+        "center_latitude": 34.2839489,
+        "center_longitude": -85.2393452,
+        "max_solar_count": 2706,
+        "max_yearly_generation": 1595116.5,
+        "max_solar_array_size": 5313.3794
+    },
+    {
+        "center_latitude": 34.1801696,
+        "center_longitude": -85.1761518,
+        "max_solar_count": 1777,
+        "max_yearly_generation": 1058619,
+        "max_solar_array_size": 3489.237
+    },
+    {
+        "center_latitude": 34.2631898,
+        "center_longitude": -85.30441599999999,
+        "max_solar_count": 2545,
+        "max_yearly_generation": 1497230.8,
+        "max_solar_array_size": 4997.247
+    },
+    {
+        "center_latitude": 34.1234897,
+        "center_longitude": -84.10646299999999,
+        "max_solar_count": 3881,
+        "max_yearly_generation": 2339723.5,
+        "max_solar_array_size": 7620.5566
+    },
+    {
+        "center_latitude": 34.290138899999995,
+        "center_longitude": -84.2046214,
+        "max_solar_count": 2438,
+        "max_yearly_generation": 1472282.8,
+        "max_solar_array_size": 4787.147
+    },
+    {
+        "center_latitude": 34.2205751,
+        "center_longitude": -84.13544929999999,
+        "max_solar_count": 5460,
+        "max_yearly_generation": 3269498.5,
+        "max_solar_array_size": 10721.01
+    },
+    {
+        "center_latitude": 34.103438499999996,
+        "center_longitude": -84.13592840000001,
+        "max_solar_count": 3264,
+        "max_yearly_generation": 2001433.9,
+        "max_solar_array_size": 6409.043
+    },
+    {
+        "center_latitude": 34.1240644,
+        "center_longitude": -84.10954339999999,
+        "max_solar_count": 5328,
+        "max_yearly_generation": 3192603,
+        "max_solar_array_size": 10461.82
+    },
+    {
+        "center_latitude": 34.143634899999995,
+        "center_longitude": -84.1762404,
+        "max_solar_count": 2873,
+        "max_yearly_generation": 1731105.6,
+        "max_solar_array_size": 5641.293
+    },
+    {
+        "center_latitude": 34.210394,
+        "center_longitude": -84.2138466,
+        "max_solar_count": 7267,
+        "max_yearly_generation": 4407653.5,
+        "max_solar_array_size": 14269.153
+    },
+    {
+        "center_latitude": 34.064369299999996,
+        "center_longitude": -84.12755349999999,
+        "max_solar_count": 2897,
+        "max_yearly_generation": 1780814.8,
+        "max_solar_array_size": 5688.4185
+    },
+    {
+        "center_latitude": 34.1681694,
+        "center_longitude": -84.1058402,
+        "max_solar_count": 3041,
+        "max_yearly_generation": 1846023.5,
+        "max_solar_array_size": 5971.1704
+    },
+    {
+        "center_latitude": 34.273954599999996,
+        "center_longitude": -84.1061513,
+        "max_solar_count": 3343,
+        "max_yearly_generation": 2031792.5,
+        "max_solar_array_size": 6564.164
+    },
+    {
+        "center_latitude": 34.1483105,
+        "center_longitude": -84.1711394,
+        "max_solar_count": 3696,
+        "max_yearly_generation": 2250982.3,
+        "max_solar_array_size": 7257.299
+    },
+    {
+        "center_latitude": 34.23815200000001,
+        "center_longitude": -84.0866221,
+        "max_solar_count": 953,
+        "max_yearly_generation": 580356.6,
+        "max_solar_array_size": 1871.2678
+    },
+    {
+        "center_latitude": 34.2772193,
+        "center_longitude": -84.1065594,
+        "max_solar_count": 1608,
+        "max_yearly_generation": 988365.94,
+        "max_solar_array_size": 3157.3962
+    },
+    {
+        "center_latitude": 34.1363943,
+        "center_longitude": -84.1426369,
+        "max_solar_count": 1189,
+        "max_yearly_generation": 713498.94,
+        "max_solar_array_size": 2334.6667
+    },
+    {
+        "center_latitude": 34.176279199999996,
+        "center_longitude": -84.2246322,
+        "max_solar_count": 1135,
+        "max_yearly_generation": 676258.44,
+        "max_solar_array_size": 2228.6348
+    },
+    {
+        "center_latitude": 34.1786931,
+        "center_longitude": -84.22323089999999,
+        "max_solar_count": 3026,
+        "max_yearly_generation": 1821803.8,
+        "max_solar_array_size": 5941.717
+    },
+    {
+        "center_latitude": 34.218664,
+        "center_longitude": -84.1371819,
+        "max_solar_count": 3295,
+        "max_yearly_generation": 1974726.8,
+        "max_solar_array_size": 6469.913
+    },
+    {
+        "center_latitude": 34.2412152,
+        "center_longitude": -84.1757829,
+        "max_solar_count": 2332,
+        "max_yearly_generation": 1449806.3,
+        "max_solar_array_size": 4579.01
+    },
+    {
+        "center_latitude": 34.296271,
+        "center_longitude": -83.996144,
+        "max_solar_count": 5307,
+        "max_yearly_generation": 3279540,
+        "max_solar_array_size": 10420.586
+    },
+    {
+        "center_latitude": 34.2494468,
+        "center_longitude": -84.02055659999999,
+        "max_solar_count": 3729,
+        "max_yearly_generation": 2307323.3,
+        "max_solar_array_size": 7322.096
+    },
+    {
+        "center_latitude": 34.2789497,
+        "center_longitude": -84.2346637,
+        "max_solar_count": 4010,
+        "max_yearly_generation": 2464447,
+        "max_solar_array_size": 7873.855
+    },
+    {
+        "center_latitude": 34.0922266,
+        "center_longitude": -84.1819081,
+        "max_solar_count": 5092,
+        "max_yearly_generation": 3116924.5,
+        "max_solar_array_size": 9998.421
+    },
+    {
+        "center_latitude": 34.1862776,
+        "center_longitude": -84.1625365,
+        "max_solar_count": 4186,
+        "max_yearly_generation": 2529441.8,
+        "max_solar_array_size": 8219.44
+    },
+    {
+        "center_latitude": 34.1059747,
+        "center_longitude": -84.1389228,
+        "max_solar_count": 7903,
+        "max_yearly_generation": 4828119,
+        "max_solar_array_size": 15517.974
+    },
+    {
+        "center_latitude": 34.1633914,
+        "center_longitude": -84.09930059999999,
+        "max_solar_count": 3426,
+        "max_yearly_generation": 2106133.3,
+        "max_solar_array_size": 6727.139
+    },
+    {
+        "center_latitude": 34.16524,
+        "center_longitude": -84.0980737,
+        "max_solar_count": 1625,
+        "max_yearly_generation": 999522.6,
+        "max_solar_array_size": 3190.7766
+    },
+    {
+        "center_latitude": 34.2878125,
+        "center_longitude": -84.20538379999999,
+        "max_solar_count": 5710,
+        "max_yearly_generation": 3442978.8,
+        "max_solar_array_size": 11211.898
+    },
+    {
+        "center_latitude": 34.3279849,
+        "center_longitude": -84.1026401,
+        "max_solar_count": 5557,
+        "max_yearly_generation": 3435926.5,
+        "max_solar_array_size": 10911.475
+    },
+    {
+        "center_latitude": 34.207775999999996,
+        "center_longitude": -84.1665735,
+        "max_solar_count": 3071,
+        "max_yearly_generation": 1854909.3,
+        "max_solar_array_size": 6030.077
+    },
+    {
+        "center_latitude": 34.1447721,
+        "center_longitude": -84.17896189999999,
+        "max_solar_count": 3809,
+        "max_yearly_generation": 2336373.5,
+        "max_solar_array_size": 7479.1807
+    },
+    {
+        "center_latitude": 34.2778975,
+        "center_longitude": -84.103715,
+        "max_solar_count": 5506,
+        "max_yearly_generation": 3310543.3,
+        "max_solar_array_size": 10811.333
+    },
+    {
+        "center_latitude": 34.1160693,
+        "center_longitude": -84.1531136,
+        "max_solar_count": 6712,
+        "max_yearly_generation": 4076624,
+        "max_solar_array_size": 13179.38
+    },
+    {
+        "center_latitude": 34.132626099999996,
+        "center_longitude": -84.24712029999999,
+        "max_solar_count": 5143,
+        "max_yearly_generation": 3137689.5,
+        "max_solar_array_size": 10098.5625
+    },
+    {
+        "center_latitude": 34.1295243,
+        "center_longitude": -84.2380239,
+        "max_solar_count": 3961,
+        "max_yearly_generation": 2421643.5,
+        "max_solar_array_size": 7777.6406
+    },
+    {
+        "center_latitude": 34.2186856,
+        "center_longitude": -84.115577,
+        "max_solar_count": 2758,
+        "max_yearly_generation": 1653343.9,
+        "max_solar_array_size": 5415.4844
+    },
+    {
+        "center_latitude": 34.1470446,
+        "center_longitude": -84.2289897,
+        "max_solar_count": 188,
+        "max_yearly_generation": 111549.086,
+        "max_solar_array_size": 369.14832
+    },
+    {
+        "center_latitude": 34.2212392,
+        "center_longitude": -84.2409247,
+        "max_solar_count": 8,
+        "max_yearly_generation": 3293.5059,
+        "max_solar_array_size": 15.708439
+    },
+    {
+        "center_latitude": 34.2650463,
+        "center_longitude": -83.9997266,
+        "max_solar_count": 64,
+        "max_yearly_generation": 38129.055,
+        "max_solar_array_size": 125.66751
+    },
+    {
+        "center_latitude": 34.1837835,
+        "center_longitude": -84.1813054,
+        "max_solar_count": 24,
+        "max_yearly_generation": 7376.6826,
+        "max_solar_array_size": 47.125317
+    },
+    {
+        "center_latitude": 34.112768599999995,
+        "center_longitude": -84.17819399999999,
+        "max_solar_count": 323,
+        "max_yearly_generation": 197159.47,
+        "max_solar_array_size": 634.2282
+    },
+    {
+        "center_latitude": 34.1582832,
+        "center_longitude": -84.2341799,
+        "max_solar_count": 2671,
+        "max_yearly_generation": 1633853,
+        "max_solar_array_size": 5244.655
+    },
+    {
+        "center_latitude": 34.2159883,
+        "center_longitude": -84.14181049999999,
+        "max_solar_count": 1174,
+        "max_yearly_generation": 721108.9,
+        "max_solar_array_size": 2305.2134
+    },
+    {
+        "center_latitude": 34.3950097,
+        "center_longitude": -83.1942347,
+        "max_solar_count": 4213,
+        "max_yearly_generation": 2627284.8,
+        "max_solar_array_size": 8272.457
+    },
+    {
+        "center_latitude": 34.3987209,
+        "center_longitude": -83.1929155,
+        "max_solar_count": 1215,
+        "max_yearly_generation": 748685.44,
+        "max_solar_array_size": 2385.7192
+    },
+    {
+        "center_latitude": 34.2889365,
+        "center_longitude": -83.11401459999999,
+        "max_solar_count": 735,
+        "max_yearly_generation": 450022.3,
+        "max_solar_array_size": 1443.2128
+    },
+    {
+        "center_latitude": 34.3630572,
+        "center_longitude": -83.211961,
+        "max_solar_count": 1892,
+        "max_yearly_generation": 1147032,
+        "max_solar_array_size": 3715.046
+    },
+    {
+        "center_latitude": 34.4306736,
+        "center_longitude": -83.0912262,
+        "max_solar_count": 2659,
+        "max_yearly_generation": 1588853.6,
+        "max_solar_array_size": 5221.0923
+    },
+    {
+        "center_latitude": 34.1209719,
+        "center_longitude": -84.3201163,
+        "max_solar_count": 3925,
+        "max_yearly_generation": 2323667.5,
+        "max_solar_array_size": 7706.9526
+    },
+    {
+        "center_latitude": 34.0562677,
+        "center_longitude": -84.1965592,
+        "max_solar_count": 3979,
+        "max_yearly_generation": 2382500.3,
+        "max_solar_array_size": 7812.985
+    },
+    {
+        "center_latitude": 34.0741401,
+        "center_longitude": -84.2422498,
+        "max_solar_count": 3335,
+        "max_yearly_generation": 1979181.3,
+        "max_solar_array_size": 6548.4556
+    },
+    {
+        "center_latitude": 34.059851699999996,
+        "center_longitude": -84.3367103,
+        "max_solar_count": 3819,
+        "max_yearly_generation": 2268772.5,
+        "max_solar_array_size": 7498.816
+    },
+    {
+        "center_latitude": 33.9507836,
+        "center_longitude": -84.3823683,
+        "max_solar_count": 2568,
+        "max_yearly_generation": 1509523.9,
+        "max_solar_array_size": 5042.4087
+    },
+    {
+        "center_latitude": 34.100527299999996,
+        "center_longitude": -84.2811568,
+        "max_solar_count": 5714,
+        "max_yearly_generation": 3488825.8,
+        "max_solar_array_size": 11219.753
+    },
+    {
+        "center_latitude": 34.0992945,
+        "center_longitude": -84.3362786,
+        "max_solar_count": 6833,
+        "max_yearly_generation": 4033326.8,
+        "max_solar_array_size": 13416.971
+    },
+    {
+        "center_latitude": 33.6164067,
+        "center_longitude": -84.6217842,
+        "max_solar_count": 6480,
+        "max_yearly_generation": 4005380.8,
+        "max_solar_array_size": 12723.836
+    },
+    {
+        "center_latitude": 33.6143047,
+        "center_longitude": -84.6285752,
+        "max_solar_count": 4322,
+        "max_yearly_generation": 2587714.5,
+        "max_solar_array_size": 8486.484
+    },
+    {
+        "center_latitude": 33.597619099999996,
+        "center_longitude": -84.5139628,
+        "max_solar_count": 4577,
+        "max_yearly_generation": 2738768.3,
+        "max_solar_array_size": 8987.19
+    },
+    {
+        "center_latitude": 33.64181,
+        "center_longitude": -84.4818135,
+        "max_solar_count": 2623,
+        "max_yearly_generation": 1563061.6,
+        "max_solar_array_size": 5150.4043
+    },
+    {
+        "center_latitude": 33.5922164,
+        "center_longitude": -84.4987959,
+        "max_solar_count": 2685,
+        "max_yearly_generation": 1667764.4,
+        "max_solar_array_size": 5272.145
+    },
+    {
+        "center_latitude": 34.1181334,
+        "center_longitude": -84.275257,
+        "max_solar_count": 6347,
+        "max_yearly_generation": 3819563.3,
+        "max_solar_array_size": 12462.683
+    },
+    {
+        "center_latitude": 34.011187899999996,
+        "center_longitude": -84.3183116,
+        "max_solar_count": 1963,
+        "max_yearly_generation": 1141499.1,
+        "max_solar_array_size": 3854.4583
+    },
+    {
+        "center_latitude": 33.5907866,
+        "center_longitude": -84.519036,
+        "max_solar_count": 7402,
+        "max_yearly_generation": 4533769.5,
+        "max_solar_array_size": 14534.233
+    },
+    {
+        "center_latitude": 34.0360839,
+        "center_longitude": -84.2327204,
+        "max_solar_count": 5108,
+        "max_yearly_generation": 3056115.8,
+        "max_solar_array_size": 10029.838
+    },
+    {
+        "center_latitude": 34.0439613,
+        "center_longitude": -84.3741818,
+        "max_solar_count": 12,
+        "max_yearly_generation": 7000.7993,
+        "max_solar_array_size": 23.562658
+    },
+    {
+        "center_latitude": 33.6375489,
+        "center_longitude": -84.5278909,
+        "max_solar_count": 4791,
+        "max_yearly_generation": 2892214,
+        "max_solar_array_size": 9407.392
+    },
+    {
+        "center_latitude": 34.0108879,
+        "center_longitude": -84.25014569999999,
+        "max_solar_count": 2735,
+        "max_yearly_generation": 1626828.8,
+        "max_solar_array_size": 5370.3228
+    },
+    {
+        "center_latitude": 33.593361099999996,
+        "center_longitude": -84.4839784,
+        "max_solar_count": 267,
+        "max_yearly_generation": 163409.95,
+        "max_solar_array_size": 524.26917
+    },
+    {
+        "center_latitude": 34.0702608,
+        "center_longitude": -84.2123373,
+        "max_solar_count": 3534,
+        "max_yearly_generation": 2079874.8,
+        "max_solar_array_size": 6939.2026
+    },
+    {
+        "center_latitude": 34.063116,
+        "center_longitude": -84.38148640000001,
+        "max_solar_count": 8362,
+        "max_yearly_generation": 5091555,
+        "max_solar_array_size": 16419.246
+    },
+    {
+        "center_latitude": 33.660196,
+        "center_longitude": -84.4061476,
+        "max_solar_count": 2067,
+        "max_yearly_generation": 1245905.1,
+        "max_solar_array_size": 4058.668
+    },
+    {
+        "center_latitude": 34.0930162,
+        "center_longitude": -84.337728,
+        "max_solar_count": 2325,
+        "max_yearly_generation": 1371173.5,
+        "max_solar_array_size": 4565.265
+    },
+    {
+        "center_latitude": 34.051742,
+        "center_longitude": -84.2742555,
+        "max_solar_count": 4053,
+        "max_yearly_generation": 2378660.5,
+        "max_solar_array_size": 7958.288
+    },
+    {
+        "center_latitude": 34.029642599999995,
+        "center_longitude": -84.3066364,
+        "max_solar_count": 3183,
+        "max_yearly_generation": 1841192.1,
+        "max_solar_array_size": 6249.995
+    },
+    {
+        "center_latitude": 34.006994999999996,
+        "center_longitude": -84.29064919999999,
+        "max_solar_count": 8114,
+        "max_yearly_generation": 4958115,
+        "max_solar_array_size": 15932.284
+    },
+    {
+        "center_latitude": 33.665362099999996,
+        "center_longitude": -84.59235749999999,
+        "max_solar_count": 1170,
+        "max_yearly_generation": 692522.94,
+        "max_solar_array_size": 2297.3591
+    },
+    {
+        "center_latitude": 34.01100220000001,
+        "center_longitude": -84.29551670000001,
+        "max_solar_count": 4167,
+        "max_yearly_generation": 2462718,
+        "max_solar_array_size": 8182.1333
+    },
+    {
+        "center_latitude": 34.039209899999996,
+        "center_longitude": -84.1776629,
+        "max_solar_count": 9251,
+        "max_yearly_generation": 5662168,
+        "max_solar_array_size": 18164.846
+    },
+    {
+        "center_latitude": 33.6755808,
+        "center_longitude": -84.430658,
+        "max_solar_count": 629,
+        "max_yearly_generation": 351242.25,
+        "max_solar_array_size": 1235.076
+    },
+    {
+        "center_latitude": 34.0751795,
+        "center_longitude": -84.2553679,
+        "max_solar_count": 6496,
+        "max_yearly_generation": 3869853,
+        "max_solar_array_size": 12755.252
+    },
+    {
+        "center_latitude": 33.556806699999996,
+        "center_longitude": -84.5270299,
+        "max_solar_count": 2823,
+        "max_yearly_generation": 1628493.9,
+        "max_solar_array_size": 5543.115
+    },
+    {
+        "center_latitude": 33.9770878,
+        "center_longitude": -84.3428072,
+        "max_solar_count": 4254,
+        "max_yearly_generation": 2520037.3,
+        "max_solar_array_size": 8352.962
+    },
+    {
+        "center_latitude": 33.581507699999996,
+        "center_longitude": -84.70231509999999,
+        "max_solar_count": 112,
+        "max_yearly_generation": 68919.31,
+        "max_solar_array_size": 219.91815
+    },
+    {
+        "center_latitude": 33.5764305,
+        "center_longitude": -84.50404379999999,
+        "max_solar_count": 3276,
+        "max_yearly_generation": 2010073.8,
+        "max_solar_array_size": 6432.606
+    },
+    {
+        "center_latitude": 33.5723942,
+        "center_longitude": -84.48101659999999,
+        "max_solar_count": 4410,
+        "max_yearly_generation": 2739239,
+        "max_solar_array_size": 8659.277
+    },
+    {
+        "center_latitude": 33.5884371,
+        "center_longitude": -84.5379442,
+        "max_solar_count": 2667,
+        "max_yearly_generation": 1635407.9,
+        "max_solar_array_size": 5236.801
+    },
+    {
+        "center_latitude": 33.9934832,
+        "center_longitude": -84.2834189,
+        "max_solar_count": 4429,
+        "max_yearly_generation": 2706840.3,
+        "max_solar_array_size": 8696.584
+    },
+    {
+        "center_latitude": 33.8981467,
+        "center_longitude": -84.3593927,
+        "max_solar_count": 4061,
+        "max_yearly_generation": 2425643.8,
+        "max_solar_array_size": 7973.996
+    },
+    {
+        "center_latitude": 33.6677379,
+        "center_longitude": -84.48104049999999,
+        "max_solar_count": 5765,
+        "max_yearly_generation": 3500076.3,
+        "max_solar_array_size": 11319.894
+    },
+    {
+        "center_latitude": 33.5584266,
+        "center_longitude": -84.6276293,
+        "max_solar_count": 8501,
+        "max_yearly_generation": 5256195.5,
+        "max_solar_array_size": 16692.18
+    },
+    {
+        "center_latitude": 33.530780799999995,
+        "center_longitude": -84.67121089999999,
+        "max_solar_count": 3134,
+        "max_yearly_generation": 1931286.9,
+        "max_solar_array_size": 6153.781
+    },
+    {
+        "center_latitude": 34.0609211,
+        "center_longitude": -84.18642899999999,
+        "max_solar_count": 3514,
+        "max_yearly_generation": 2081816.9,
+        "max_solar_array_size": 6899.9316
+    },
+    {
+        "center_latitude": 34.0214983,
+        "center_longitude": -84.19821259999999,
+        "max_solar_count": 3779,
+        "max_yearly_generation": 2238068.8,
+        "max_solar_array_size": 7420.274
+    },
+    {
+        "center_latitude": 34.0715275,
+        "center_longitude": -84.3635007,
+        "max_solar_count": 4585,
+        "max_yearly_generation": 2716745.5,
+        "max_solar_array_size": 9002.899
+    },
+    {
+        "center_latitude": 34.082596300000006,
+        "center_longitude": -84.2764291,
+        "max_solar_count": 3787,
+        "max_yearly_generation": 2246781.5,
+        "max_solar_array_size": 7435.9824
+    },
+    {
+        "center_latitude": 33.611166000000004,
+        "center_longitude": -84.4746011,
+        "max_solar_count": 4176,
+        "max_yearly_generation": 2488340,
+        "max_solar_array_size": 8199.805
+    },
+    {
+        "center_latitude": 34.0581033,
+        "center_longitude": -84.3369817,
+        "max_solar_count": 6075,
+        "max_yearly_generation": 3715108.5,
+        "max_solar_array_size": 11928.596
+    },
+    {
+        "center_latitude": 34.1047576,
+        "center_longitude": -84.2832127,
+        "max_solar_count": 3870,
+        "max_yearly_generation": 2268299.5,
+        "max_solar_array_size": 7598.9575
+    },
+    {
+        "center_latitude": 34.0188795,
+        "center_longitude": -84.2395617,
+        "max_solar_count": 4715,
+        "max_yearly_generation": 2876390,
+        "max_solar_array_size": 9258.161
+    },
+    {
+        "center_latitude": 33.523337399999996,
+        "center_longitude": -84.6863518,
+        "max_solar_count": 351,
+        "max_yearly_generation": 177432.13,
+        "max_solar_array_size": 689.20776
+    },
+    {
+        "center_latitude": 34.0711195,
+        "center_longitude": -84.4044031,
+        "max_solar_count": 4111,
+        "max_yearly_generation": 2494096.5,
+        "max_solar_array_size": 8072.174
+    },
+    {
+        "center_latitude": 34.0405297,
+        "center_longitude": -84.2821321,
+        "max_solar_count": 4008,
+        "max_yearly_generation": 2441962.3,
+        "max_solar_array_size": 7869.9277
+    },
+    {
+        "center_latitude": 34.0196014,
+        "center_longitude": -84.3629138,
+        "max_solar_count": 451,
+        "max_yearly_generation": 274238.13,
+        "max_solar_array_size": 885.56323
+    },
+    {
+        "center_latitude": 33.7047433,
+        "center_longitude": -84.56088059999999,
+        "max_solar_count": 3352,
+        "max_yearly_generation": 1970437.8,
+        "max_solar_array_size": 6581.836
+    },
+    {
+        "center_latitude": 33.5562396,
+        "center_longitude": -84.626147,
+        "max_solar_count": 5129,
+        "max_yearly_generation": 3010076.3,
+        "max_solar_array_size": 10071.073
+    },
+    {
+        "center_latitude": 34.0490831,
+        "center_longitude": -84.2082854,
+        "max_solar_count": 7793,
+        "max_yearly_generation": 4771075,
+        "max_solar_array_size": 15301.983
+    },
+    {
+        "center_latitude": 33.9933439,
+        "center_longitude": -84.3111622,
+        "max_solar_count": 3763,
+        "max_yearly_generation": 2194715.5,
+        "max_solar_array_size": 7388.857
+    },
+    {
+        "center_latitude": 34.0454866,
+        "center_longitude": -84.12906149999999,
+        "max_solar_count": 3669,
+        "max_yearly_generation": 2190614.8,
+        "max_solar_array_size": 7204.2827
+    },
+    {
+        "center_latitude": 34.043341399999996,
+        "center_longitude": -84.12387319999999,
+        "max_solar_count": 5758,
+        "max_yearly_generation": 3569672.3,
+        "max_solar_array_size": 11306.148
+    },
+    {
+        "center_latitude": 34.0357816,
+        "center_longitude": -84.1827304,
+        "max_solar_count": 4279,
+        "max_yearly_generation": 2581183.8,
+        "max_solar_array_size": 8402.051
+    },
+    {
+        "center_latitude": 34.0693117,
+        "center_longitude": -84.30227939999999,
+        "max_solar_count": 3692,
+        "max_yearly_generation": 2172644.3,
+        "max_solar_array_size": 7249.4443
+    },
+    {
+        "center_latitude": 34.02915480000001,
+        "center_longitude": -84.1905613,
+        "max_solar_count": 3711,
+        "max_yearly_generation": 2226837.8,
+        "max_solar_array_size": 7286.752
+    },
+    {
+        "center_latitude": 34.0668457,
+        "center_longitude": -84.2315315,
+        "max_solar_count": 6330,
+        "max_yearly_generation": 3742965,
+        "max_solar_array_size": 12429.303
+    },
+    {
+        "center_latitude": 33.6955812,
+        "center_longitude": -84.46540329999999,
+        "max_solar_count": 4636,
+        "max_yearly_generation": 2737155.8,
+        "max_solar_array_size": 9103.04
+    },
+    {
+        "center_latitude": 33.597681099999996,
+        "center_longitude": -84.5791181,
+        "max_solar_count": 6,
+        "max_yearly_generation": 3330.029,
+        "max_solar_array_size": 11.781329
+    },
+    {
+        "center_latitude": 33.6993046,
+        "center_longitude": -84.5611466,
+        "max_solar_count": 5856,
+        "max_yearly_generation": 3569639.5,
+        "max_solar_array_size": 11498.577
+    },
+    {
+        "center_latitude": 34.053009599999996,
+        "center_longitude": -84.209023,
+        "max_solar_count": 6258,
+        "max_yearly_generation": 3734107,
+        "max_solar_array_size": 12287.927
+    },
+    {
+        "center_latitude": 34.095842399999995,
+        "center_longitude": -84.3375181,
+        "max_solar_count": 6558,
+        "max_yearly_generation": 3918005.5,
+        "max_solar_array_size": 12876.993
+    },
+    {
+        "center_latitude": 33.9968491,
+        "center_longitude": -84.3398808,
+        "max_solar_count": 6395,
+        "max_yearly_generation": 3910577,
+        "max_solar_array_size": 12556.934
+    },
+    {
+        "center_latitude": 33.6846226,
+        "center_longitude": -84.43645959999999,
+        "max_solar_count": 8986,
+        "max_yearly_generation": 5488200.5,
+        "max_solar_array_size": 17644.504
+    },
+    {
+        "center_latitude": 34.05289520000001,
+        "center_longitude": -84.23145579999999,
+        "max_solar_count": 4018,
+        "max_yearly_generation": 2390820.8,
+        "max_solar_array_size": 7889.5635
+    },
+    {
+        "center_latitude": 33.961245999999996,
+        "center_longitude": -84.351287,
+        "max_solar_count": 8,
+        "max_yearly_generation": 4866.3784,
+        "max_solar_array_size": 15.708439
+    },
+    {
+        "center_latitude": 33.6885474,
+        "center_longitude": -84.4656444,
+        "max_solar_count": 6386,
+        "max_yearly_generation": 3887553.5,
+        "max_solar_array_size": 12539.262
+    },
+    {
+        "center_latitude": 33.9168202,
+        "center_longitude": -84.3857405,
+        "max_solar_count": 2617,
+        "max_yearly_generation": 1524397.5,
+        "max_solar_array_size": 5138.623
+    },
+    {
+        "center_latitude": 34.023111799999995,
+        "center_longitude": -84.1949245,
+        "max_solar_count": 6375,
+        "max_yearly_generation": 3842668.8,
+        "max_solar_array_size": 12517.662
+    },
+    {
+        "center_latitude": 33.6576765,
+        "center_longitude": -84.6145689,
+        "max_solar_count": 4230,
+        "max_yearly_generation": 2510513.5,
+        "max_solar_array_size": 8305.837
+    },
+    {
+        "center_latitude": 34.0817194,
+        "center_longitude": -84.30159429999999,
+        "max_solar_count": 4453,
+        "max_yearly_generation": 2685365,
+        "max_solar_array_size": 8743.71
+    },
+    {
+        "center_latitude": 34.0379001,
+        "center_longitude": -84.3686531,
+        "max_solar_count": 2417,
+        "max_yearly_generation": 1465562.3,
+        "max_solar_array_size": 4745.912
+    },
+    {
+        "center_latitude": 33.6164984,
+        "center_longitude": -84.633842,
+        "max_solar_count": 7541,
+        "max_yearly_generation": 4652215,
+        "max_solar_array_size": 14807.167
+    },
+    {
+        "center_latitude": 34.1446435,
+        "center_longitude": -84.3404922,
+        "max_solar_count": 4463,
+        "max_yearly_generation": 2661636.8,
+        "max_solar_array_size": 8763.346
+    },
+    {
+        "center_latitude": 33.9776373,
+        "center_longitude": -84.3532414,
+        "max_solar_count": 2243,
+        "max_yearly_generation": 1298437.9,
+        "max_solar_array_size": 4404.2534
+    },
+    {
+        "center_latitude": 33.6767034,
+        "center_longitude": -84.47353439999999,
+        "max_solar_count": 3319,
+        "max_yearly_generation": 2006647,
+        "max_solar_array_size": 6517.0386
+    },
+    {
+        "center_latitude": 33.6767034,
+        "center_longitude": -84.47353439999999,
+        "max_solar_count": 3319,
+        "max_yearly_generation": 2006647,
+        "max_solar_array_size": 6517.0386
+    },
+    {
+        "center_latitude": 33.6559191,
+        "center_longitude": -84.4563683,
+        "max_solar_count": 14,
+        "max_yearly_generation": 8086.7515,
+        "max_solar_array_size": 27.489769
+    },
+    {
+        "center_latitude": 34.030948699999996,
+        "center_longitude": -84.3515015,
+        "max_solar_count": 1390,
+        "max_yearly_generation": 805342.6,
+        "max_solar_array_size": 2729.3413
+    },
+    {
+        "center_latitude": 33.635760499999996,
+        "center_longitude": -84.5862985,
+        "max_solar_count": 1794,
+        "max_yearly_generation": 1034775.94,
+        "max_solar_array_size": 3522.6174
+    },
+    {
+        "center_latitude": 34.056401,
+        "center_longitude": -84.3604048,
+        "max_solar_count": 319,
+        "max_yearly_generation": 170934.16,
+        "max_solar_array_size": 626.374
+    },
+    {
+        "center_latitude": 33.615591099999996,
+        "center_longitude": -84.47050089999999,
+        "max_solar_count": 422,
+        "max_yearly_generation": 257044.56,
+        "max_solar_array_size": 828.6202
+    },
+    {
+        "center_latitude": 33.6144811,
+        "center_longitude": -84.51817799999999,
+        "max_solar_count": 150,
+        "max_yearly_generation": 76574.336,
+        "max_solar_array_size": 294.53323
+    },
+    {
+        "center_latitude": 34.0767072,
+        "center_longitude": -84.2990568,
+        "max_solar_count": 3510,
+        "max_yearly_generation": 2044126.6,
+        "max_solar_array_size": 6892.0776
+    },
+    {
+        "center_latitude": 33.5740884,
+        "center_longitude": -84.5703566,
+        "max_solar_count": 75,
+        "max_yearly_generation": 42171.703,
+        "max_solar_array_size": 147.26662
+    },
+    {
+        "center_latitude": 33.9099477,
+        "center_longitude": -84.426469,
+        "max_solar_count": 2563,
+        "max_yearly_generation": 1470317.3,
+        "max_solar_array_size": 5032.5913
+    },
+    {
+        "center_latitude": 33.5931589,
+        "center_longitude": -84.48175309999999,
+        "max_solar_count": 3236,
+        "max_yearly_generation": 1963849.4,
+        "max_solar_array_size": 6354.0635
+    },
+    {
+        "center_latitude": 33.572600099999995,
+        "center_longitude": -84.5742781,
+        "max_solar_count": 117,
+        "max_yearly_generation": 71288.28,
+        "max_solar_array_size": 229.73592
+    },
+    {
+        "center_latitude": 33.6463738,
+        "center_longitude": -84.49587149999999,
+        "max_solar_count": 2843,
+        "max_yearly_generation": 1689559.5,
+        "max_solar_array_size": 5582.386
+    },
+    {
+        "center_latitude": 33.9099477,
+        "center_longitude": -84.426469,
+        "max_solar_count": 2563,
+        "max_yearly_generation": 1470317.3,
+        "max_solar_array_size": 5032.5913
+    },
+    {
+        "center_latitude": 33.627609,
+        "center_longitude": -84.53902629999999,
+        "max_solar_count": 3247,
+        "max_yearly_generation": 1875206.4,
+        "max_solar_array_size": 6375.6626
+    },
+    {
+        "center_latitude": 33.678275400000004,
+        "center_longitude": -84.42514489999999,
+        "max_solar_count": 2830,
+        "max_yearly_generation": 1654581.1,
+        "max_solar_array_size": 5556.8604
+    },
+    {
+        "center_latitude": 33.917799699999996,
+        "center_longitude": -84.41744849999999,
+        "max_solar_count": 2812,
+        "max_yearly_generation": 1657544.3,
+        "max_solar_array_size": 5521.516
+    },
+    {
+        "center_latitude": 33.8992672,
+        "center_longitude": -84.3701296,
+        "max_solar_count": 2771,
+        "max_yearly_generation": 1657851.1,
+        "max_solar_array_size": 5441.0107
+    },
+    {
+        "center_latitude": 34.036204999999995,
+        "center_longitude": -84.3318104,
+        "max_solar_count": 4258,
+        "max_yearly_generation": 2580981.5,
+        "max_solar_array_size": 8360.816
+    },
+    {
+        "center_latitude": 33.9578728,
+        "center_longitude": -84.36322109999999,
+        "max_solar_count": 5789,
+        "max_yearly_generation": 3468870.5,
+        "max_solar_array_size": 11367.02
+    },
+    {
+        "center_latitude": 33.572572799999996,
+        "center_longitude": -84.6198445,
+        "max_solar_count": 1955,
+        "max_yearly_generation": 1197777.5,
+        "max_solar_array_size": 3838.7498
+    },
+    {
+        "center_latitude": 33.685035299999996,
+        "center_longitude": -84.4568565,
+        "max_solar_count": 2601,
+        "max_yearly_generation": 1555250,
+        "max_solar_array_size": 5107.206
+    },
+    {
+        "center_latitude": 33.6648389,
+        "center_longitude": -84.4787249,
+        "max_solar_count": 154,
+        "max_yearly_generation": 90957.49,
+        "max_solar_array_size": 302.38745
+    },
+    {
+        "center_latitude": 33.689241599999995,
+        "center_longitude": -84.5760306,
+        "max_solar_count": 6659,
+        "max_yearly_generation": 4036823,
+        "max_solar_array_size": 13075.312
+    },
+    {
+        "center_latitude": 34.682083299999995,
+        "center_longitude": -84.5041407,
+        "max_solar_count": 1178,
+        "max_yearly_generation": 689124,
+        "max_solar_array_size": 2313.0676
+    },
+    {
+        "center_latitude": 34.6145642,
+        "center_longitude": -84.4560704,
+        "max_solar_count": 5596,
+        "max_yearly_generation": 3323620.8,
+        "max_solar_array_size": 10988.053
+    },
+    {
+        "center_latitude": 34.6128996,
+        "center_longitude": -84.4627943,
+        "max_solar_count": 2879,
+        "max_yearly_generation": 1713937.6,
+        "max_solar_array_size": 5653.074
+    },
+    {
+        "center_latitude": 34.6788763,
+        "center_longitude": -84.50086499999999,
+        "max_solar_count": 3343,
+        "max_yearly_generation": 1926778.4,
+        "max_solar_array_size": 6564.164
+    },
+    {
+        "center_latitude": 34.696341,
+        "center_longitude": -84.476826,
+        "max_solar_count": 1955,
+        "max_yearly_generation": 1170024.3,
+        "max_solar_array_size": 3838.7498
+    },
+    {
+        "center_latitude": 33.2410718,
+        "center_longitude": -82.6112134,
+        "max_solar_count": 3052,
+        "max_yearly_generation": 1910549.1,
+        "max_solar_array_size": 5992.7695
+    },
+    {
+        "center_latitude": 33.2410718,
+        "center_longitude": -82.6112134,
+        "max_solar_count": 3052,
+        "max_yearly_generation": 1910549.1,
+        "max_solar_array_size": 5992.7695
+    },
+    {
+        "center_latitude": 31.265258699999997,
+        "center_longitude": -81.5626125,
+        "max_solar_count": 3403,
+        "max_yearly_generation": 2134903,
+        "max_solar_array_size": 6681.977
+    },
+    {
+        "center_latitude": 31.1700371,
+        "center_longitude": -81.4957391,
+        "max_solar_count": 2733,
+        "max_yearly_generation": 1746007.4,
+        "max_solar_array_size": 5366.3955
+    },
+    {
+        "center_latitude": 31.1397859,
+        "center_longitude": -81.4815459,
+        "max_solar_count": 1861,
+        "max_yearly_generation": 1113604.3,
+        "max_solar_array_size": 3654.1755
+    }
+]
