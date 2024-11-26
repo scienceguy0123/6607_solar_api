@@ -1,47 +1,24 @@
-import csv
+import pandas as pd
 import requests
 import json
 import time
 import os
 from tqdm import tqdm
-
-# Macro
-# Define whether to save original responses
-SAVE_ORIGIN_RESPONSE = True
+try:
+    from config import API_KEY, READ_SRC_CSV, WRITE_RESULT_CSV, WRITE_RESULT_JSON, SAVE_ORIGIN_RESPONSE, ORIGIN_RESPONSE_DIR, LATITUDE, LONGTIDUE, STORE_NAME, ADDRESS
+except ImportError:
+    print("Error: Can't find config.py file! Please ensure the config.py file exists and contains the necessary configuration information.")
+    exit(1)
 
 # Parameters
 # URL for the Google Solar API
 url = "https://solar.googleapis.com/v1/buildingInsights:findClosest"
-# The file storing API key
-api_key_file = "mysolarApi.txt"
-
-# Read CSV file and write JSON file
-read_src_csv = "../data-school/split_data_6.csv"
-write_result_json = "result_split_data_6.json"
-# Extract attributes
-column_longitude = "LONGITUDE"
-column_latitude = "LATITUDE"
-# Directory for saving original responses
-if SAVE_ORIGIN_RESPONSE:
-    origin_response_dir = "origin_response_split_data_6"
 
 # Global variables used to count the quality of rows
 total_query_count = 0
 high_quality_count = 0
 medium_quality_count = 0
 no_found_count = 0
-
-# Read the API key from 'mysolarApi.txt'
-def get_api_key(file_path):
-    try:
-        with open(file_path, 'r') as file:
-            return file.read().strip()  # Read and remove any extra whitespace or newlines
-    except FileNotFoundError:
-        print(f"Error: The file '{file_path}' does not exist.")
-        return None
-    except Exception as e:
-        print(f"An error occurred while reading the API key: {e}")
-        return None
 
 # Get and extract required attributes from API response
 def get_building_insights(latitude, longitude, quality="HIGH"):
@@ -88,49 +65,78 @@ def get_building_insights(latitude, longitude, quality="HIGH"):
         no_found_count += 1
         return None, None
 
+
+# Process the CSV and extract building insights
+def process():
+    global total_query_count
+
+    # Save each original response as a separate JSON file
+    if SAVE_ORIGIN_RESPONSE:
+        os.makedirs(ORIGIN_RESPONSE_DIR, exist_ok=True)
+
+    # Read the CSV file using pandas
+    df = pd.read_csv(READ_SRC_CSV)
+
+    # Check if required columns exist
+    required_columns = [LATITUDE, LONGTIDUE, STORE_NAME, ADDRESS]
+    for col in required_columns:
+        if col not in df.columns:
+            raise ValueError(f"The input file does not contain the required column: '{col}'.")
+
+    # Add new columns for the extracted information
+    df["center_latitude"] = None
+    df["center_longitude"] = None
+    df["max_solar_count"] = None
+    df["max_yearly_generation"] = None
+    df["max_solar_array_size"] = None
+
+    # Create tqdm progress bar
+    for index, row in tqdm(df.iterrows(), total=len(df), desc="Processing rows"):
+        total_query_count += 1
+
+        # Get building insights
+        response, building_insight = get_building_insights(row[LATITUDE], row[LONGTIDUE])
+
+        # Save the response in a JSON file if required
+        if SAVE_ORIGIN_RESPONSE and response:
+            # Extract storename and address
+            storename = row.get(STORE_NAME, "unknown").replace(" ", "_").replace("/", "-")
+            address = row.get(ADDRESS, "unknown").replace(" ", "_").replace("/", "-")
+            # Construct the filename dynamically
+            filename = f"{ORIGIN_RESPONSE_DIR}/{storename}_{address}.json"
+            
+            with open(filename, "w") as response_file:
+                json.dump(response, response_file, indent=4)
+
+        # Save extracted building insights to the DataFrame
+        if building_insight:
+            df["center_latitude"] = building_insight["center_latitude"]
+            df["center_longitude"] = building_insight["center_longitude"]
+            df.at[index, "max_solar_count"] = building_insight["max_solar_count"]
+            df.at[index, "max_yearly_generation"] = building_insight["max_yearly_generation"]
+            df.at[index, "max_solar_array_size"] = building_insight["max_solar_array_size"]
+
+    # Save the updated DataFrame to a new CSV file
+    df.to_csv(WRITE_RESULT_CSV, index=False)
+
+    # Extract only relevant insights for saving to output JSON, ignoring rows with no insights
+    subset_column = ["center_latitude", "center_longitude", "max_solar_count", "max_yearly_generation", "max_solar_array_size"]
+    insights = df.dropna(subset=subset_column)
+    insights_list = insights[subset_column].to_dict(orient="records")
+
+    # Save the extracted building insights to a JSON file
+    with open(WRITE_RESULT_JSON, "w") as json_file:
+        json.dump(insights_list, json_file, indent=4)
+
+    print(f"Processing completed! Results saved to {WRITE_RESULT_JSON} and {WRITE_RESULT_CSV}")
+
+
 if __name__ == "__main__":
     # Start the timer
     start_time = time.time()
 
-    # Get the API key from the text file
-    API_KEY = get_api_key(api_key_file)
-    if API_KEY is None:
-        print("API key could not be loaded. Exiting...")
-        exit()
-
-    # Create the directory for saving original responses
-    if SAVE_ORIGIN_RESPONSE:
-        os.makedirs(origin_response_dir, exist_ok=True)
-
-    # Store the building insights
-    building_insights = []
-
-    # Read coordinates from a CSV file
-    with open(read_src_csv, mode="r") as file:
-        reader = csv.reader(file)
-        header = next(reader)  # Read the header row
-        longitude_index = header.index(column_longitude)  # Find the index of "LONGITUDE"
-        latitude_index = header.index(column_latitude)    # Find the index of "LATITUDE"
-
-        # Add tqdm for progress tracking
-        for row_index, row in tqdm(enumerate(reader), total=sum(1 for _ in open(read_src_csv)) - 1, desc="Processing rows"):
-            # Total query count accumulates
-            total_query_count += 1
-
-            response, building_insight = get_building_insights(row[latitude_index], row[longitude_index])
-
-            # Save each original response as a separate JSON file
-            if SAVE_ORIGIN_RESPONSE and response:
-                with open(f"{origin_response_dir}/response_{row_index}.json", "w") as response_file:
-                    json.dump(response, response_file, indent=4)
-
-            # Save extracted building insights
-            if building_insight:
-                building_insights.append(building_insight)
-
-    # Save summarized results to a JSON file
-    with open(write_result_json, "w") as json_file:
-        json.dump(building_insights, json_file, indent=4)
+    # Process the CSV file and extract building insights
+    process()
 
     # Print the total execution time
     end_time = time.time()
