@@ -98,7 +98,7 @@ def process():
         response, building_insight = get_building_insights(row[LATITUDE], row[LONGTIDUE])
 
         # Save the response in a JSON file if required
-        if SAVE_ORIGIN_RESPONSE and response:
+        if SAVE_ORIGIN_RESPONSE:
             # Extract storename and address
             storename = row.get(STORE_NAME, "unknown").replace(" ", "_").replace("/", "-")
             address = row.get(ADDRESS, "unknown").replace(" ", "_").replace("/", "-")
