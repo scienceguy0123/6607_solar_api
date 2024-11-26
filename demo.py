@@ -53,9 +53,9 @@ def get_building_insights(latitude, longitude, quality="HIGH"):
         building_insight = {
             "center_latitude": response['center']['latitude'],
             "center_longitude": response['center']['longitude'],
-            "max_solar_count": response['solarPotential']['solarPanelConfigs'][-1]['panelsCount'],
-            "max_yearly_generation": response['solarPotential']['solarPanelConfigs'][-1]['yearlyEnergyDcKwh'],
-            "max_solar_array_size": response['solarPotential']['maxArrayAreaMeters2']
+            "NumPanels": response['solarPotential']['solarPanelConfigs'][-1]['panelsCount'],
+            "YearlyEnergy": response['solarPotential']['solarPanelConfigs'][-1]['yearlyEnergyDcKwh'],
+            "SolarArea": response['solarPotential']['maxArrayAreaMeters2']
         }
 
         return response, building_insight
@@ -86,9 +86,9 @@ def process():
     # Add new columns for the extracted information
     df["center_latitude"] = None
     df["center_longitude"] = None
-    df["max_solar_count"] = None
-    df["max_yearly_generation"] = None
-    df["max_solar_array_size"] = None
+    df["NumPanels"] = None
+    df["YearlyEnergy"] = None
+    df["SolarArea"] = None
 
     # Create tqdm progress bar
     for index, row in tqdm(df.iterrows(), total=len(df), desc="Processing rows"):
@@ -112,15 +112,15 @@ def process():
         if building_insight:
             df.at[index, "center_latitude"] = building_insight["center_latitude"]
             df.at[index, "center_longitude"] = building_insight["center_longitude"]
-            df.at[index, "max_solar_count"] = building_insight["max_solar_count"]
-            df.at[index, "max_yearly_generation"] = building_insight["max_yearly_generation"]
-            df.at[index, "max_solar_array_size"] = building_insight["max_solar_array_size"]
+            df.at[index, "NumPanels"] = building_insight["NumPanels"]
+            df.at[index, "YearlyEnergy"] = building_insight["YearlyEnergy"]
+            df.at[index, "SolarArea"] = building_insight["SolarArea"]
 
     # Save the updated DataFrame to a new CSV file
     df.to_csv(WRITE_RESULT_CSV, index=False)
 
     # Extract only relevant insights for saving to output JSON, ignoring rows with no insights
-    subset_column = ["center_latitude", "center_longitude", "max_solar_count", "max_yearly_generation", "max_solar_array_size"]
+    subset_column = ["center_latitude", "center_longitude", "NumPanels", "YearlyEnergy", "SolarArea"]
     insights = df.dropna(subset=subset_column)
     insights_list = insights[subset_column].to_dict(orient="records")
 

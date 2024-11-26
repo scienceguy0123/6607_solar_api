@@ -1,4 +1,4 @@
-Store_Name,Address,lat,lgt,center_latitude,center_longitude,max_solar_count,max_yearly_generation,max_solar_array_size
+Store_Name,Address,lat,lgt,center_latitude,center_longitude,NumPanels,YearlyEnergy,SolarArea
 Abercorn,"11152 Abercorn St, Savannah, GA 31419",31.9806088,-81.1437232,31.980611499999995,-81.14372279999999,98,60382.832,192.42838
 Acworth,"3295 Cobb Pkwy NW, Acworth, GA 30101",34.0342075,-84.6787629,34.034204700000004,-84.6787887,66,39036.93,129.59462
 Akers Mill Drive-Thru Only,"2975 Cobb Pkwy SE, Atlanta, GA 30339",33.8807272,-84.4609,33.880766,-84.46091249999999,19,10797.524,37.30754

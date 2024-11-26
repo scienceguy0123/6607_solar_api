@@ -2,1835 +2,1835 @@
     {
         "center_latitude": 31.980611499999995,
         "center_longitude": -81.14372279999999,
-        "max_solar_count": 98,
-        "max_yearly_generation": 60382.832,
-        "max_solar_array_size": 192.42838
+        "NumPanels": 98,
+        "YearlyEnergy": 60382.832,
+        "SolarArea": 192.42838
     },
     {
         "center_latitude": 34.034204700000004,
         "center_longitude": -84.6787887,
-        "max_solar_count": 66,
-        "max_yearly_generation": 39036.93,
-        "max_solar_array_size": 129.59462
+        "NumPanels": 66,
+        "YearlyEnergy": 39036.93,
+        "SolarArea": 129.59462
     },
     {
         "center_latitude": 33.880766,
         "center_longitude": -84.46091249999999,
-        "max_solar_count": 19,
-        "max_yearly_generation": 10797.524,
-        "max_solar_array_size": 37.30754
+        "NumPanels": 19,
+        "YearlyEnergy": 10797.524,
+        "SolarArea": 37.30754
     },
     {
         "center_latitude": 31.614617700000004,
         "center_longitude": -84.216484,
-        "max_solar_count": 859,
-        "max_yearly_generation": 551422.4,
-        "max_solar_array_size": 1686.6936
+        "NumPanels": 859,
+        "YearlyEnergy": 551422.4,
+        "SolarArea": 1686.6936
     },
     {
         "center_latitude": 31.569262400000003,
         "center_longitude": -84.1418621,
-        "max_solar_count": 1055,
-        "max_yearly_generation": 667288.2,
-        "max_solar_array_size": 2071.5503
+        "NumPanels": 1055,
+        "YearlyEnergy": 667288.2,
+        "SolarArea": 2071.5503
     },
     {
         "center_latitude": 34.0571625,
         "center_longitude": -84.23292099999999,
-        "max_solar_count": 89,
-        "max_yearly_generation": 51920.957,
-        "max_solar_array_size": 174.75638
+        "NumPanels": 89,
+        "YearlyEnergy": 51920.957,
+        "SolarArea": 174.75638
     },
     {
         "center_latitude": 32.0737929,
         "center_longitude": -84.2202088,
-        "max_solar_count": 464,
-        "max_yearly_generation": 283568.94,
-        "max_solar_array_size": 911.0895
+        "NumPanels": 464,
+        "YearlyEnergy": 283568.94,
+        "SolarArea": 911.0895
     },
     {
         "center_latitude": 33.7277462,
         "center_longitude": -84.7457819,
-        "max_solar_count": 24620,
-        "max_yearly_generation": 14940878,
-        "max_solar_array_size": 48342.72
+        "NumPanels": 24620,
+        "YearlyEnergy": 14940878,
+        "SolarArea": 48342.72
     },
     {
         "center_latitude": 33.7743362,
         "center_longitude": -84.3867878,
-        "max_solar_count": 2132,
-        "max_yearly_generation": 1007519.8,
-        "max_solar_array_size": 4186.299
+        "NumPanels": 2132,
+        "YearlyEnergy": 1007519.8,
+        "SolarArea": 4186.299
     },
     {
         "center_latitude": 33.9384516,
         "center_longitude": -83.4563141,
-        "max_solar_count": 103,
-        "max_yearly_generation": 64170.668,
-        "max_solar_array_size": 202.24615
+        "NumPanels": 103,
+        "YearlyEnergy": 64170.668,
+        "SolarArea": 202.24615
     },
     {
         "center_latitude": 33.4919017,
         "center_longitude": -82.07809429999999,
-        "max_solar_count": 62,
-        "max_yearly_generation": 36661.055,
-        "max_solar_array_size": 121.7404
+        "NumPanels": 62,
+        "YearlyEnergy": 36661.055,
+        "SolarArea": 121.7404
     },
     {
         "center_latitude": 33.463218399999995,
         "center_longitude": -82.0790304,
-        "max_solar_count": 20820,
-        "max_yearly_generation": 12939655,
-        "max_solar_array_size": 40881.21
+        "NumPanels": 20820,
+        "YearlyEnergy": 12939655,
+        "SolarArea": 40881.21
     },
     {
         "center_latitude": 33.8578842,
         "center_longitude": -84.599936,
-        "max_solar_count": 203,
-        "max_yearly_generation": 115243.45,
-        "max_solar_array_size": 398.60162
+        "NumPanels": 203,
+        "YearlyEnergy": 115243.45,
+        "SolarArea": 398.60162
     },
     {
         "center_latitude": 34.069292,
         "center_longitude": -84.2809858,
-        "max_solar_count": 136,
-        "max_yearly_generation": 72906.88,
-        "max_solar_array_size": 267.04346
+        "NumPanels": 136,
+        "YearlyEnergy": 72906.88,
+        "SolarArea": 267.04346
     },
     {
         "center_latitude": 30.884764899999997,
         "center_longitude": -84.5649975,
-        "max_solar_count": 36,
-        "max_yearly_generation": 22712.963,
-        "max_solar_array_size": 70.68797
+        "NumPanels": 36,
+        "YearlyEnergy": 22712.963,
+        "SolarArea": 70.68797
     },
     {
         "center_latitude": 33.5959505,
         "center_longitude": -85.0386071,
-        "max_solar_count": 154,
-        "max_yearly_generation": 90467.27,
-        "max_solar_array_size": 302.38745
+        "NumPanels": 154,
+        "YearlyEnergy": 90467.27,
+        "SolarArea": 302.38745
     },
     {
         "center_latitude": 33.9245604,
         "center_longitude": -83.3395341,
-        "max_solar_count": 155,
-        "max_yearly_generation": 96628.18,
-        "max_solar_array_size": 304.351
+        "NumPanels": 155,
+        "YearlyEnergy": 96628.18,
+        "SolarArea": 304.351
     },
     {
         "center_latitude": 34.007070999999996,
         "center_longitude": -84.573831,
-        "max_solar_count": 270,
-        "max_yearly_generation": 151739.06,
-        "max_solar_array_size": 530.1598
+        "NumPanels": 270,
+        "YearlyEnergy": 151739.06,
+        "SolarArea": 530.1598
     },
     {
         "center_latitude": 32.9260594,
         "center_longitude": -83.7353839,
-        "max_solar_count": 115,
-        "max_yearly_generation": 68290.7,
-        "max_solar_array_size": 225.8088
+        "NumPanels": 115,
+        "YearlyEnergy": 68290.7,
+        "SolarArea": 225.8088
     },
     {
         "center_latitude": 33.944941299999996,
         "center_longitude": -83.4093895,
-        "max_solar_count": 99,
-        "max_yearly_generation": 61284.605,
-        "max_solar_array_size": 194.39194
+        "NumPanels": 99,
+        "YearlyEnergy": 61284.605,
+        "SolarArea": 194.39194
     },
     {
         "center_latitude": 34.2894442,
         "center_longitude": -85.193426,
-        "max_solar_count": 212,
-        "max_yearly_generation": 117055.445,
-        "max_solar_array_size": 416.27362
+        "NumPanels": 212,
+        "YearlyEnergy": 117055.445,
+        "SolarArea": 416.27362
     },
     {
         "center_latitude": 34.8766898,
         "center_longitude": -83.9617444,
-        "max_solar_count": 97,
-        "max_yearly_generation": 45829.23,
-        "max_solar_array_size": 190.46483
+        "NumPanels": 97,
+        "YearlyEnergy": 45829.23,
+        "SolarArea": 190.46483
     },
     {
         "center_latitude": 32.5318442,
         "center_longitude": -84.96811009999999,
-        "max_solar_count": 69,
-        "max_yearly_generation": 41987.08,
-        "max_solar_array_size": 135.48529
+        "NumPanels": 69,
+        "YearlyEnergy": 41987.08,
+        "SolarArea": 135.48529
     },
     {
         "center_latitude": 34.1199891,
         "center_longitude": -83.8255416,
-        "max_solar_count": 221,
-        "max_yearly_generation": 137020,
-        "max_solar_array_size": 433.94562
+        "NumPanels": 221,
+        "YearlyEnergy": 137020,
+        "SolarArea": 433.94562
     },
     {
         "center_latitude": 33.687695399999996,
         "center_longitude": -85.15014529999999,
-        "max_solar_count": 234,
-        "max_yearly_generation": 131743.77,
-        "max_solar_array_size": 459.47183
+        "NumPanels": 234,
+        "YearlyEnergy": 131743.77,
+        "SolarArea": 459.47183
     },
     {
         "center_latitude": 33.8610587,
         "center_longitude": -84.34002459999999,
-        "max_solar_count": 307,
-        "max_yearly_generation": 179668.05,
-        "max_solar_array_size": 602.81134
+        "NumPanels": 307,
+        "YearlyEnergy": 179668.05,
+        "SolarArea": 602.81134
     },
     {
         "center_latitude": 33.9985838,
         "center_longitude": -84.7044322,
-        "max_solar_count": 64,
-        "max_yearly_generation": 35980.78,
-        "max_solar_array_size": 125.66751
+        "NumPanels": 64,
+        "YearlyEnergy": 35980.78,
+        "SolarArea": 125.66751
     },
     {
         "center_latitude": 31.211566500000004,
         "center_longitude": -81.4907769,
-        "max_solar_count": 103,
-        "max_yearly_generation": 64431.09,
-        "max_solar_array_size": 202.24615
+        "NumPanels": 103,
+        "YearlyEnergy": 64431.09,
+        "SolarArea": 202.24615
     },
     {
         "center_latitude": 34.0987643,
         "center_longitude": -84.0095607,
-        "max_solar_count": 123,
-        "max_yearly_generation": 70919.13,
-        "max_solar_array_size": 241.51724
+        "NumPanels": 123,
+        "YearlyEnergy": 70919.13,
+        "SolarArea": 241.51724
     },
     {
         "center_latitude": 32.6624136,
         "center_longitude": -83.7393941,
-        "max_solar_count": 68,
-        "max_yearly_generation": 42494.227,
-        "max_solar_array_size": 133.52173
+        "NumPanels": 68,
+        "YearlyEnergy": 42494.227,
+        "SolarArea": 133.52173
     },
     {
         "center_latitude": 34.4749386,
         "center_longitude": -84.9280141,
-        "max_solar_count": 88,
-        "max_yearly_generation": 53076.992,
-        "max_solar_array_size": 172.79283
+        "NumPanels": 88,
+        "YearlyEnergy": 53076.992,
+        "SolarArea": 172.79283
     },
     {
         "center_latitude": 33.6564603,
         "center_longitude": -84.50166960000001,
-        "max_solar_count": 84,
-        "max_yearly_generation": 45551.496,
-        "max_solar_array_size": 164.93861
+        "NumPanels": 84,
+        "YearlyEnergy": 45551.496,
+        "SolarArea": 164.93861
     },
     {
         "center_latitude": 34.2361335,
         "center_longitude": -84.45350499999999,
-        "max_solar_count": 77,
-        "max_yearly_generation": 43942.383,
-        "max_solar_array_size": 151.19373
+        "NumPanels": 77,
+        "YearlyEnergy": 43942.383,
+        "SolarArea": 151.19373
     },
     {
         "center_latitude": 33.5546511,
         "center_longitude": -85.07227879999999,
-        "max_solar_count": 9,
-        "max_yearly_generation": 5254.849,
-        "max_solar_array_size": 17.671993
+        "NumPanels": 9,
+        "YearlyEnergy": 5254.849,
+        "SolarArea": 17.671993
     },
     {
         "center_latitude": 33.724473599999996,
         "center_longitude": -84.5112125,
-        "max_solar_count": 104,
-        "max_yearly_generation": 58658.242,
-        "max_solar_array_size": 204.2097
+        "NumPanels": 104,
+        "YearlyEnergy": 58658.242,
+        "SolarArea": 204.2097
     },
     {
         "center_latitude": 34.0476959,
         "center_longitude": -85.23508029999999,
-        "max_solar_count": 53,
-        "max_yearly_generation": 31872.086,
-        "max_solar_array_size": 104.068405
+        "NumPanels": 53,
+        "YearlyEnergy": 31872.086,
+        "SolarArea": 104.068405
     },
     {
         "center_latitude": 33.9572229,
         "center_longitude": -84.2132779,
-        "max_solar_count": 653,
-        "max_yearly_generation": 387479.63,
-        "max_solar_array_size": 1282.2013
+        "NumPanels": 653,
+        "YearlyEnergy": 387479.63,
+        "SolarArea": 1282.2013
     },
     {
         "center_latitude": 34.0369277,
         "center_longitude": -84.56957919999999,
-        "max_solar_count": 198,
-        "max_yearly_generation": 112871.94,
-        "max_solar_array_size": 388.78387
+        "NumPanels": 198,
+        "YearlyEnergy": 112871.94,
+        "SolarArea": 388.78387
     },
     {
         "center_latitude": 33.87186,
         "center_longitude": -84.3805254,
-        "max_solar_count": 519,
-        "max_yearly_generation": 311497.03,
-        "max_solar_array_size": 1019.08496
+        "NumPanels": 519,
+        "YearlyEnergy": 311497.03,
+        "SolarArea": 1019.08496
     },
     {
         "center_latitude": 34.17115,
         "center_longitude": -84.7858599,
-        "max_solar_count": 922,
-        "max_yearly_generation": 569339.75,
-        "max_solar_array_size": 1810.3976
+        "NumPanels": 922,
+        "YearlyEnergy": 569339.75,
+        "SolarArea": 1810.3976
     },
     {
         "center_latitude": 33.4707565,
         "center_longitude": -81.9877327,
-        "max_solar_count": 7,
-        "max_yearly_generation": 4016.3625,
-        "max_solar_array_size": 13.7448845
+        "NumPanels": 7,
+        "YearlyEnergy": 4016.3625,
+        "SolarArea": 13.7448845
     },
     {
         "center_latitude": 34.880380699999996,
         "center_longitude": -83.3971018,
-        "max_solar_count": 114,
-        "max_yearly_generation": 68054.664,
-        "max_solar_array_size": 223.84526
+        "NumPanels": 114,
+        "YearlyEnergy": 68054.664,
+        "SolarArea": 223.84526
     },
     {
         "center_latitude": 34.595050199999996,
         "center_longitude": -83.7638169,
-        "max_solar_count": 115,
-        "max_yearly_generation": 69474.46,
-        "max_solar_array_size": 225.8088
+        "NumPanels": 115,
+        "YearlyEnergy": 69474.46,
+        "SolarArea": 225.8088
     },
     {
         "center_latitude": 33.681813,
         "center_longitude": -84.4239674,
-        "max_solar_count": 90,
-        "max_yearly_generation": 47916.17,
-        "max_solar_array_size": 176.71994
+        "NumPanels": 90,
+        "YearlyEnergy": 47916.17,
+        "SolarArea": 176.71994
     },
     {
         "center_latitude": 33.7578441,
         "center_longitude": -84.39476979999999,
-        "max_solar_count": 5128,
-        "max_yearly_generation": 2781851,
-        "max_solar_array_size": 10069.109
+        "NumPanels": 5128,
+        "YearlyEnergy": 2781851,
+        "SolarArea": 10069.109
     },
     {
         "center_latitude": 33.7601957,
         "center_longitude": -84.3955103,
-        "max_solar_count": 2603,
-        "max_yearly_generation": 1501454.9,
-        "max_solar_array_size": 5111.1333
+        "NumPanels": 2603,
+        "YearlyEnergy": 1501454.9,
+        "SolarArea": 5111.1333
     },
     {
         "center_latitude": 33.786938299999996,
         "center_longitude": -84.3827099,
-        "max_solar_count": 479,
-        "max_yearly_generation": 229829.97,
-        "max_solar_array_size": 940.5428
+        "NumPanels": 479,
+        "YearlyEnergy": 229829.97,
+        "SolarArea": 940.5428
     },
     {
         "center_latitude": 32.545228,
         "center_longitude": -84.94509719999999,
-        "max_solar_count": 105,
-        "max_yearly_generation": 62735.9,
-        "max_solar_array_size": 206.17326
+        "NumPanels": 105,
+        "YearlyEnergy": 62735.9,
+        "SolarArea": 206.17326
     },
     {
         "center_latitude": 32.5026155,
         "center_longitude": -84.9416517,
-        "max_solar_count": 474,
-        "max_yearly_generation": 295292.38,
-        "max_solar_array_size": 930.725
+        "NumPanels": 474,
+        "YearlyEnergy": 295292.38,
+        "SolarArea": 930.725
     },
     {
         "center_latitude": 34.257657699999996,
         "center_longitude": -83.46372850000002,
-        "max_solar_count": 107,
-        "max_yearly_generation": 65095.88,
-        "max_solar_array_size": 210.10037
+        "NumPanels": 107,
+        "YearlyEnergy": 65095.88,
+        "SolarArea": 210.10037
     },
     {
         "center_latitude": 33.6496882,
         "center_longitude": -84.00929300000001,
-        "max_solar_count": 186,
-        "max_yearly_generation": 107876.07,
-        "max_solar_array_size": 365.2212
+        "NumPanels": 186,
+        "YearlyEnergy": 107876.07,
+        "SolarArea": 365.2212
     },
     {
         "center_latitude": 31.9610379,
         "center_longitude": -83.75443469999999,
-        "max_solar_count": 126,
-        "max_yearly_generation": 72352.484,
-        "max_solar_array_size": 247.40791
+        "NumPanels": 126,
+        "YearlyEnergy": 72352.484,
+        "SolarArea": 247.40791
     },
     {
         "center_latitude": 34.535872,
         "center_longitude": -83.53467880000001,
-        "max_solar_count": 122,
-        "max_yearly_generation": 74112.8,
-        "max_solar_array_size": 239.5537
+        "NumPanels": 122,
+        "YearlyEnergy": 74112.8,
+        "SolarArea": 239.5537
     },
     {
         "center_latitude": 33.603473099999995,
         "center_longitude": -83.8660262,
-        "max_solar_count": 170,
-        "max_yearly_generation": 102967.98,
-        "max_solar_array_size": 333.80432
+        "NumPanels": 170,
+        "YearlyEnergy": 102967.98,
+        "SolarArea": 333.80432
     },
     {
         "center_latitude": 33.6191824,
         "center_longitude": -83.8385064,
-        "max_solar_count": 4813,
-        "max_yearly_generation": 3025923.3,
-        "max_solar_array_size": 9450.59
+        "NumPanels": 4813,
+        "YearlyEnergy": 3025923.3,
+        "SolarArea": 9450.59
     },
     {
         "center_latitude": 33.409138899999995,
         "center_longitude": -84.68592369999999,
-        "max_solar_count": 107,
-        "max_yearly_generation": 62121.24,
-        "max_solar_array_size": 210.10037
+        "NumPanels": 107,
+        "YearlyEnergy": 62121.24,
+        "SolarArea": 210.10037
     },
     {
         "center_latitude": 33.8802012,
         "center_longitude": -84.46859959999999,
-        "max_solar_count": 20227,
-        "max_yearly_generation": 12178606,
-        "max_solar_array_size": 39716.824
+        "NumPanels": 20227,
+        "YearlyEnergy": 12178606,
+        "SolarArea": 39716.824
     },
     {
         "center_latitude": 34.0002683,
         "center_longitude": -83.90820649999999,
-        "max_solar_count": 63,
-        "max_yearly_generation": 36570.914,
-        "max_solar_array_size": 123.70396
+        "NumPanels": 63,
+        "YearlyEnergy": 36570.914,
+        "SolarArea": 123.70396
     },
     {
         "center_latitude": 34.5343276,
         "center_longitude": -83.9757855,
-        "max_solar_count": 137,
-        "max_yearly_generation": 77116.73,
-        "max_solar_array_size": 269.00702
+        "NumPanels": 137,
+        "YearlyEnergy": 77116.73,
+        "SolarArea": 269.00702
     },
     {
         "center_latitude": 33.9079596,
         "center_longitude": -84.8226538,
-        "max_solar_count": 74,
-        "max_yearly_generation": 42966.035,
-        "max_solar_array_size": 145.30305
+        "NumPanels": 74,
+        "YearlyEnergy": 42966.035,
+        "SolarArea": 145.30305
     },
     {
         "center_latitude": 34.759778,
         "center_longitude": -84.9943284,
-        "max_solar_count": 161,
-        "max_yearly_generation": 95073.58,
-        "max_solar_array_size": 316.13232
+        "NumPanels": 161,
+        "YearlyEnergy": 95073.58,
+        "SolarArea": 316.13232
     },
     {
         "center_latitude": 34.7588814,
         "center_longitude": -84.9333465,
-        "max_solar_count": 18594,
-        "max_yearly_generation": 11144096,
-        "max_solar_array_size": 36510.34
+        "NumPanels": 18594,
+        "YearlyEnergy": 11144096,
+        "SolarArea": 36510.34
     },
     {
         "center_latitude": 34.3567148,
         "center_longitude": -84.0444298,
-        "max_solar_count": 130,
-        "max_yearly_generation": 76857.22,
-        "max_solar_array_size": 255.26213
+        "NumPanels": 130,
+        "YearlyEnergy": 76857.22,
+        "SolarArea": 255.26213
     },
     {
         "center_latitude": 33.6562193,
         "center_longitude": -84.4240785,
-        "max_solar_count": 3841,
-        "max_yearly_generation": 2275817,
-        "max_solar_array_size": 7542.014
+        "NumPanels": 3841,
+        "YearlyEnergy": 2275817,
+        "SolarArea": 7542.014
     },
     {
         "center_latitude": 33.9076579,
         "center_longitude": -84.2691129,
-        "max_solar_count": 70,
-        "max_yearly_generation": 40196.746,
-        "max_solar_array_size": 137.44884
+        "NumPanels": 70,
+        "YearlyEnergy": 40196.746,
+        "SolarArea": 137.44884
     },
     {
         "center_latitude": 31.489889,
         "center_longitude": -82.85169030000002,
-        "max_solar_count": 637,
-        "max_yearly_generation": 390020.38,
-        "max_solar_array_size": 1250.7844
+        "NumPanels": 637,
+        "YearlyEnergy": 390020.38,
+        "SolarArea": 1250.7844
     },
     {
         "center_latitude": 33.7172914,
         "center_longitude": -84.7641747,
-        "max_solar_count": 445,
-        "max_yearly_generation": 241993.19,
-        "max_solar_array_size": 873.7819
+        "NumPanels": 445,
+        "YearlyEnergy": 241993.19,
+        "SolarArea": 873.7819
     },
     {
         "center_latitude": 33.957909799999996,
         "center_longitude": -83.3756915,
-        "max_solar_count": 405,
-        "max_yearly_generation": 232964.55,
-        "max_solar_array_size": 795.23975
+        "NumPanels": 405,
+        "YearlyEnergy": 232964.55,
+        "SolarArea": 795.23975
     },
     {
         "center_latitude": 33.773043699999995,
         "center_longitude": -84.2960907,
-        "max_solar_count": 83,
-        "max_yearly_generation": 45515.547,
-        "max_solar_array_size": 162.97505
+        "NumPanels": 83,
+        "YearlyEnergy": 45515.547,
+        "SolarArea": 162.97505
     },
     {
         "center_latitude": 32.5406435,
         "center_longitude": -82.94839110000001,
-        "max_solar_count": 89,
-        "max_yearly_generation": 55027.293,
-        "max_solar_array_size": 174.75638
+        "NumPanels": 89,
+        "YearlyEnergy": 55027.293,
+        "SolarArea": 174.75638
     },
     {
         "center_latitude": 34.28556890000001,
         "center_longitude": -85.18714969999999,
-        "max_solar_count": 618,
-        "max_yearly_generation": 310822.03,
-        "max_solar_array_size": 1213.4769
+        "NumPanels": 618,
+        "YearlyEnergy": 310822.03,
+        "SolarArea": 1213.4769
     },
     {
         "center_latitude": 34.2624221,
         "center_longitude": -85.17066899999999,
-        "max_solar_count": 419,
-        "max_yearly_generation": 246518.66,
-        "max_solar_array_size": 822.7295
+        "NumPanels": 419,
+        "YearlyEnergy": 246518.66,
+        "SolarArea": 822.7295
     },
     {
         "center_latitude": 33.5062703,
         "center_longitude": -84.2285411,
-        "max_solar_count": 51,
-        "max_yearly_generation": 31506.613,
-        "max_solar_array_size": 100.1413
+        "NumPanels": 51,
+        "YearlyEnergy": 31506.613,
+        "SolarArea": 100.1413
     },
     {
         "center_latitude": 33.9665805,
         "center_longitude": -84.49192529999999,
-        "max_solar_count": 90,
-        "max_yearly_generation": 52036.465,
-        "max_solar_array_size": 176.71994
+        "NumPanels": 90,
+        "YearlyEnergy": 52036.465,
+        "SolarArea": 176.71994
     },
     {
         "center_latitude": 32.8111337,
         "center_longitude": -83.7214192,
-        "max_solar_count": 69,
-        "max_yearly_generation": 41403.22,
-        "max_solar_array_size": 135.48529
+        "NumPanels": 69,
+        "YearlyEnergy": 41403.22,
+        "SolarArea": 135.48529
     },
     {
         "center_latitude": 34.6584548,
         "center_longitude": -84.49278780000002,
-        "max_solar_count": 123,
-        "max_yearly_generation": 67365.49,
-        "max_solar_array_size": 241.51724
+        "NumPanels": 123,
+        "YearlyEnergy": 67365.49,
+        "SolarArea": 241.51724
     },
     {
         "center_latitude": 33.917099900000004,
         "center_longitude": -83.442875,
-        "max_solar_count": 97,
-        "max_yearly_generation": 58934.31,
-        "max_solar_array_size": 190.46483
+        "NumPanels": 97,
+        "YearlyEnergy": 58934.31,
+        "SolarArea": 190.46483
     },
     {
         "center_latitude": 33.5435059,
         "center_longitude": -84.57629770000001,
-        "max_solar_count": 72,
-        "max_yearly_generation": 42196.79,
-        "max_solar_array_size": 141.37595
+        "NumPanels": 72,
+        "YearlyEnergy": 42196.79,
+        "SolarArea": 141.37595
     },
     {
         "center_latitude": 33.7508397,
         "center_longitude": -84.7265752,
-        "max_solar_count": 5,
-        "max_yearly_generation": 2906.8384,
-        "max_solar_array_size": 9.817774
+        "NumPanels": 5,
+        "YearlyEnergy": 2906.8384,
+        "SolarArea": 9.817774
     },
     {
         "center_latitude": 33.4674951,
         "center_longitude": -84.4465278,
-        "max_solar_count": 205,
-        "max_yearly_generation": 115402.95,
-        "max_solar_array_size": 402.52875
+        "NumPanels": 205,
+        "YearlyEnergy": 115402.95,
+        "SolarArea": 402.52875
     },
     {
         "center_latitude": 33.4298611,
         "center_longitude": -84.45870029999999,
-        "max_solar_count": 82,
-        "max_yearly_generation": 48448.08,
-        "max_solar_array_size": 161.0115
+        "NumPanels": 82,
+        "YearlyEnergy": 48448.08,
+        "SolarArea": 161.0115
     },
     {
         "center_latitude": 33.6190346,
         "center_longitude": -84.35174839999999,
-        "max_solar_count": 127,
-        "max_yearly_generation": 75241.15,
-        "max_solar_array_size": 249.37146
+        "NumPanels": 127,
+        "YearlyEnergy": 75241.15,
+        "SolarArea": 249.37146
     },
     {
         "center_latitude": 33.027423899999995,
         "center_longitude": -83.9129318,
-        "max_solar_count": 7,
-        "max_yearly_generation": 4204.831,
-        "max_solar_array_size": 13.7448845
+        "NumPanels": 7,
+        "YearlyEnergy": 4204.831,
+        "SolarArea": 13.7448845
     },
     {
         "center_latitude": 34.9531868,
         "center_longitude": -85.2451406,
-        "max_solar_count": 71,
-        "max_yearly_generation": 39781.54,
-        "max_solar_array_size": 139.4124
+        "NumPanels": 71,
+        "YearlyEnergy": 39781.54,
+        "SolarArea": 139.4124
     },
     {
         "center_latitude": 34.2968384,
         "center_longitude": -83.8558376,
-        "max_solar_count": 84,
-        "max_yearly_generation": 50256.03,
-        "max_solar_array_size": 164.93861
+        "NumPanels": 84,
+        "YearlyEnergy": 50256.03,
+        "SolarArea": 164.93861
     },
     {
         "center_latitude": 33.0827654,
         "center_longitude": -83.231904,
-        "max_solar_count": 1992,
-        "max_yearly_generation": 1268119.1,
-        "max_solar_array_size": 3911.4014
+        "NumPanels": 1992,
+        "YearlyEnergy": 1268119.1,
+        "SolarArea": 3911.4014
     },
     {
         "center_latitude": 33.9814034,
         "center_longitude": -84.0000562,
-        "max_solar_count": 1833,
-        "max_yearly_generation": 1100394.5,
-        "max_solar_array_size": 3599.196
+        "NumPanels": 1833,
+        "YearlyEnergy": 1100394.5,
+        "SolarArea": 3599.196
     },
     {
         "center_latitude": 32.4258921,
         "center_longitude": -81.7831642,
-        "max_solar_count": 146,
-        "max_yearly_generation": 77060.18,
-        "max_solar_array_size": 286.67902
+        "NumPanels": 146,
+        "YearlyEnergy": 77060.18,
+        "SolarArea": 286.67902
     },
     {
         "center_latitude": 31.9782463,
         "center_longitude": -81.16495689999999,
-        "max_solar_count": 2024,
-        "max_yearly_generation": 1191691.6,
-        "max_solar_array_size": 3974.235
+        "NumPanels": 2024,
+        "YearlyEnergy": 1191691.6,
+        "SolarArea": 3974.235
     },
     {
         "center_latitude": 32.055157,
         "center_longitude": -84.21682469999999,
-        "max_solar_count": 638,
-        "max_yearly_generation": 380895.63,
-        "max_solar_array_size": 1252.748
+        "NumPanels": 638,
+        "YearlyEnergy": 380895.63,
+        "SolarArea": 1252.748
     },
     {
         "center_latitude": 33.7593003,
         "center_longitude": -84.38442719999999,
-        "max_solar_count": 85,
-        "max_yearly_generation": 38222.832,
-        "max_solar_array_size": 166.90216
+        "NumPanels": 85,
+        "YearlyEnergy": 38222.832,
+        "SolarArea": 166.90216
     },
     {
         "center_latitude": 33.7508457,
         "center_longitude": -84.38550219999999,
-        "max_solar_count": 782,
-        "max_yearly_generation": 424878,
-        "max_solar_array_size": 1535.4999
+        "NumPanels": 782,
+        "YearlyEnergy": 424878,
+        "SolarArea": 1535.4999
     },
     {
         "center_latitude": 33.7739994,
         "center_longitude": -84.3986637,
-        "max_solar_count": 1903,
-        "max_yearly_generation": 1123176.9,
-        "max_solar_array_size": 3736.6448
+        "NumPanels": 1903,
+        "YearlyEnergy": 1123176.9,
+        "SolarArea": 3736.6448
     },
     {
         "center_latitude": 33.742316599999995,
         "center_longitude": -84.3584861,
-        "max_solar_count": 104,
-        "max_yearly_generation": 57942.8,
-        "max_solar_array_size": 204.2097
+        "NumPanels": 104,
+        "YearlyEnergy": 57942.8,
+        "SolarArea": 204.2097
     },
     {
         "center_latitude": 32.131787599999996,
         "center_longitude": -81.2575511,
-        "max_solar_count": 704,
-        "max_yearly_generation": 434590.63,
-        "max_solar_array_size": 1382.3427
+        "NumPanels": 704,
+        "YearlyEnergy": 434590.63,
+        "SolarArea": 1382.3427
     },
     {
         "center_latitude": 33.751743399999995,
         "center_longitude": -84.3820892,
-        "max_solar_count": 4060,
-        "max_yearly_generation": 2092196,
-        "max_solar_array_size": 7972.0327
+        "NumPanels": 4060,
+        "YearlyEnergy": 2092196,
+        "SolarArea": 7972.0327
     },
     {
         "center_latitude": 33.2470779,
         "center_longitude": -84.2785139,
-        "max_solar_count": 202,
-        "max_yearly_generation": 113308.73,
-        "max_solar_array_size": 396.6381
+        "NumPanels": 202,
+        "YearlyEnergy": 113308.73,
+        "SolarArea": 396.6381
     },
     {
         "center_latitude": 33.4788093,
         "center_longitude": -82.19693199999999,
-        "max_solar_count": 164,
-        "max_yearly_generation": 99105.02,
-        "max_solar_array_size": 322.023
+        "NumPanels": 164,
+        "YearlyEnergy": 99105.02,
+        "SolarArea": 322.023
     },
     {
         "center_latitude": 32.139071699999995,
         "center_longitude": -81.1972839,
-        "max_solar_count": 1076,
-        "max_yearly_generation": 671877.4,
-        "max_solar_array_size": 2112.785
+        "NumPanels": 1076,
+        "YearlyEnergy": 671877.4,
+        "SolarArea": 2112.785
     },
     {
         "center_latitude": 34.095267,
         "center_longitude": -84.2173837,
-        "max_solar_count": 62,
-        "max_yearly_generation": 28950.945,
-        "max_solar_array_size": 121.7404
+        "NumPanels": 62,
+        "YearlyEnergy": 28950.945,
+        "SolarArea": 121.7404
     },
     {
         "center_latitude": 34.0793739,
         "center_longitude": -83.91771829999999,
-        "max_solar_count": 94,
-        "max_yearly_generation": 51492.2,
-        "max_solar_array_size": 184.57416
+        "NumPanels": 94,
+        "YearlyEnergy": 51492.2,
+        "SolarArea": 184.57416
     },
     {
         "center_latitude": 33.6418743,
         "center_longitude": -84.4464593,
-        "max_solar_count": 102,
-        "max_yearly_generation": 56395.777,
-        "max_solar_array_size": 200.2826
+        "NumPanels": 102,
+        "YearlyEnergy": 56395.777,
+        "SolarArea": 200.2826
     },
     {
         "center_latitude": 33.6404227,
         "center_longitude": -84.4391842,
-        "max_solar_count": 9085,
-        "max_yearly_generation": 5415607.5,
-        "max_solar_array_size": 17838.896
+        "NumPanels": 9085,
+        "YearlyEnergy": 5415607.5,
+        "SolarArea": 17838.896
     },
     {
         "center_latitude": 34.1766392,
         "center_longitude": -84.4212988,
-        "max_solar_count": 69,
-        "max_yearly_generation": 33290.668,
-        "max_solar_array_size": 135.48529
+        "NumPanels": 69,
+        "YearlyEnergy": 33290.668,
+        "SolarArea": 135.48529
     },
     {
         "center_latitude": 31.8217126,
         "center_longitude": -81.60023869999999,
-        "max_solar_count": 35,
-        "max_yearly_generation": 17843.816,
-        "max_solar_array_size": 68.72442
+        "NumPanels": 35,
+        "YearlyEnergy": 17843.816,
+        "SolarArea": 68.72442
     },
     {
         "center_latitude": 33.8877805,
         "center_longitude": -84.74086129999999,
-        "max_solar_count": 47,
-        "max_yearly_generation": 19008.758,
-        "max_solar_array_size": 92.28708
+        "NumPanels": 47,
+        "YearlyEnergy": 19008.758,
+        "SolarArea": 92.28708
     },
     {
         "center_latitude": 33.8076602,
         "center_longitude": -84.4129258,
-        "max_solar_count": 61,
-        "max_yearly_generation": 35797.527,
-        "max_solar_array_size": 119.77685
+        "NumPanels": 61,
+        "YearlyEnergy": 35797.527,
+        "SolarArea": 119.77685
     },
     {
         "center_latitude": 32.5539117,
         "center_longitude": -83.660594,
-        "max_solar_count": 87,
-        "max_yearly_generation": 51457.85,
-        "max_solar_array_size": 170.82927
+        "NumPanels": 87,
+        "YearlyEnergy": 51457.85,
+        "SolarArea": 170.82927
     },
     {
         "center_latitude": 34.1236191,
         "center_longitude": -83.60636439999999,
-        "max_solar_count": 562,
-        "max_yearly_generation": 351173.56,
-        "max_solar_array_size": 1103.5178
+        "NumPanels": 562,
+        "YearlyEnergy": 351173.56,
+        "SolarArea": 1103.5178
     },
     {
         "center_latitude": 34.3132602,
         "center_longitude": -83.79680259999999,
-        "max_solar_count": 280,
-        "max_yearly_generation": 172972.8,
-        "max_solar_array_size": 549.79535
+        "NumPanels": 280,
+        "YearlyEnergy": 172972.8,
+        "SolarArea": 549.79535
     },
     {
         "center_latitude": 33.958534199999995,
         "center_longitude": -84.30291319999999,
-        "max_solar_count": 116,
-        "max_yearly_generation": 66354.45,
-        "max_solar_array_size": 227.77237
+        "NumPanels": 116,
+        "YearlyEnergy": 66354.45,
+        "SolarArea": 227.77237
     },
     {
         "center_latitude": 33.9078374,
         "center_longitude": -84.2056159,
-        "max_solar_count": 76,
-        "max_yearly_generation": 44303.074,
-        "max_solar_array_size": 149.23016
+        "NumPanels": 76,
+        "YearlyEnergy": 44303.074,
+        "SolarArea": 149.23016
     },
     {
         "center_latitude": 33.4819907,
         "center_longitude": -84.2233526,
-        "max_solar_count": 37,
-        "max_yearly_generation": 20519.215,
-        "max_solar_array_size": 72.65153
+        "NumPanels": 37,
+        "YearlyEnergy": 20519.215,
+        "SolarArea": 72.65153
     },
     {
         "center_latitude": 34.0707423,
         "center_longitude": -84.1664157,
-        "max_solar_count": 112,
-        "max_yearly_generation": 65041.832,
-        "max_solar_array_size": 219.91815
+        "NumPanels": 112,
+        "YearlyEnergy": 65041.832,
+        "SolarArea": 219.91815
     },
     {
         "center_latitude": 33.5539213,
         "center_longitude": -84.3696418,
-        "max_solar_count": 125,
-        "max_yearly_generation": 74566.734,
-        "max_solar_array_size": 245.44435
+        "NumPanels": 125,
+        "YearlyEnergy": 74566.734,
+        "SolarArea": 245.44435
     },
     {
         "center_latitude": 33.4405184,
         "center_longitude": -84.59080259999999,
-        "max_solar_count": 88,
-        "max_yearly_generation": 53114.7,
-        "max_solar_array_size": 172.79283
+        "NumPanels": 88,
+        "YearlyEnergy": 53114.7,
+        "SolarArea": 172.79283
     },
     {
         "center_latitude": 34.0384678,
         "center_longitude": -84.5830737,
-        "max_solar_count": 1671,
-        "max_yearly_generation": 954992.1,
-        "max_solar_array_size": 3281.1
+        "NumPanels": 1671,
+        "YearlyEnergy": 954992.1,
+        "SolarArea": 3281.1
     },
     {
         "center_latitude": 33.9390223,
         "center_longitude": -84.51923699999999,
-        "max_solar_count": 502,
-        "max_yearly_generation": 296277.34,
-        "max_solar_array_size": 985.7045
+        "NumPanels": 502,
+        "YearlyEnergy": 296277.34,
+        "SolarArea": 985.7045
     },
     {
         "center_latitude": 30.788933299999997,
         "center_longitude": -81.65117289999999,
-        "max_solar_count": 152,
-        "max_yearly_generation": 94803.836,
-        "max_solar_array_size": 298.46033
+        "NumPanels": 152,
+        "YearlyEnergy": 94803.836,
+        "SolarArea": 298.46033
     },
     {
         "center_latitude": 33.9532889,
         "center_longitude": -84.58140499999999,
-        "max_solar_count": 3379,
-        "max_yearly_generation": 2046561.5,
-        "max_solar_array_size": 6634.852
+        "NumPanels": 3379,
+        "YearlyEnergy": 2046561.5,
+        "SolarArea": 6634.852
     },
     {
         "center_latitude": 33.041533099999995,
         "center_longitude": -84.97456439999999,
-        "max_solar_count": 104,
-        "max_yearly_generation": 61422.875,
-        "max_solar_array_size": 204.2097
+        "NumPanels": 104,
+        "YearlyEnergy": 61422.875,
+        "SolarArea": 204.2097
     },
     {
         "center_latitude": 33.4392959,
         "center_longitude": -84.12289489999999,
-        "max_solar_count": 72,
-        "max_yearly_generation": 43574.133,
-        "max_solar_array_size": 141.37595
+        "NumPanels": 72,
+        "YearlyEnergy": 43574.133,
+        "SolarArea": 141.37595
     },
     {
         "center_latitude": 33.5425024,
         "center_longitude": -83.2073616,
-        "max_solar_count": 29,
-        "max_yearly_generation": 17524.266,
-        "max_solar_array_size": 56.943092
+        "NumPanels": 29,
+        "YearlyEnergy": 17524.266,
+        "SolarArea": 56.943092
     },
     {
         "center_latitude": 30.682791399999996,
         "center_longitude": -83.2178179,
-        "max_solar_count": 207,
-        "max_yearly_generation": 129676.625,
-        "max_solar_array_size": 406.45584
+        "NumPanels": 207,
+        "YearlyEnergy": 129676.625,
+        "SolarArea": 406.45584
     },
     {
         "center_latitude": 34.1203062,
         "center_longitude": -84.74585040000001,
-        "max_solar_count": 114,
-        "max_yearly_generation": 66422.89,
-        "max_solar_array_size": 223.84526
+        "NumPanels": 114,
+        "YearlyEnergy": 66422.89,
+        "SolarArea": 223.84526
     },
     {
         "center_latitude": 34.184633999999996,
         "center_longitude": -84.1463685,
-        "max_solar_count": 140,
-        "max_yearly_generation": 74435.27,
-        "max_solar_array_size": 274.89767
+        "NumPanels": 140,
+        "YearlyEnergy": 74435.27,
+        "SolarArea": 274.89767
     },
     {
         "center_latitude": 34.0359948,
         "center_longitude": -84.4611097,
-        "max_solar_count": 77,
-        "max_yearly_generation": 44056.65,
-        "max_solar_array_size": 151.19373
+        "NumPanels": 77,
+        "YearlyEnergy": 44056.65,
+        "SolarArea": 151.19373
     },
     {
         "center_latitude": 34.4477725,
         "center_longitude": -83.1293536,
-        "max_solar_count": 161,
-        "max_yearly_generation": 100397.32,
-        "max_solar_array_size": 316.13232
+        "NumPanels": 161,
+        "YearlyEnergy": 100397.32,
+        "SolarArea": 316.13232
     },
     {
         "center_latitude": 31.656230800000003,
         "center_longitude": -84.1735988,
-        "max_solar_count": 99,
-        "max_yearly_generation": 59880.215,
-        "max_solar_array_size": 194.39194
+        "NumPanels": 99,
+        "YearlyEnergy": 59880.215,
+        "SolarArea": 194.39194
     },
     {
         "center_latitude": 33.846550199999996,
         "center_longitude": -84.3623738,
-        "max_solar_count": 24572,
-        "max_yearly_generation": 14821675,
-        "max_solar_array_size": 48248.47
+        "NumPanels": 24572,
+        "YearlyEnergy": 14821675,
+        "SolarArea": 48248.47
     },
     {
         "center_latitude": 33.8951267,
         "center_longitude": -84.14101099999999,
-        "max_solar_count": 77,
-        "max_yearly_generation": 43260.973,
-        "max_solar_array_size": 151.19373
+        "NumPanels": 77,
+        "YearlyEnergy": 43260.973,
+        "SolarArea": 151.19373
     },
     {
         "center_latitude": 33.396220899999996,
         "center_longitude": -84.6001604,
-        "max_solar_count": 128,
-        "max_yearly_generation": 72923.125,
-        "max_solar_array_size": 251.33502
+        "NumPanels": 128,
+        "YearlyEnergy": 72923.125,
+        "SolarArea": 251.33502
     },
     {
         "center_latitude": 33.3522781,
         "center_longitude": -84.12894829999999,
-        "max_solar_count": 67,
-        "max_yearly_generation": 41728.82,
-        "max_solar_array_size": 131.55818
+        "NumPanels": 67,
+        "YearlyEnergy": 41728.82,
+        "SolarArea": 131.55818
     },
     {
         "center_latitude": 33.8406854,
         "center_longitude": -83.90874699999999,
-        "max_solar_count": 156,
-        "max_yearly_generation": 91570.76,
-        "max_solar_array_size": 306.31454
+        "NumPanels": 156,
+        "YearlyEnergy": 91570.76,
+        "SolarArea": 306.31454
     },
     {
         "center_latitude": 33.4494079,
         "center_longitude": -84.32599789999999,
-        "max_solar_count": 78,
-        "max_yearly_generation": 47582.563,
-        "max_solar_array_size": 153.15727
+        "NumPanels": 78,
+        "YearlyEnergy": 47582.563,
+        "SolarArea": 153.15727
     },
     {
         "center_latitude": 33.8114075,
         "center_longitude": -84.2787546,
-        "max_solar_count": 366,
-        "max_yearly_generation": 210982.67,
-        "max_solar_array_size": 718.6611
+        "NumPanels": 366,
+        "YearlyEnergy": 210982.67,
+        "SolarArea": 718.6611
     },
     {
         "center_latitude": 33.9046888,
         "center_longitude": -84.6035162,
-        "max_solar_count": 80,
-        "max_yearly_generation": 43706.3,
-        "max_solar_array_size": 157.08438
+        "NumPanels": 80,
+        "YearlyEnergy": 43706.3,
+        "SolarArea": 157.08438
     },
     {
         "center_latitude": 32.472017199999996,
         "center_longitude": -84.95626209999999,
-        "max_solar_count": 91,
-        "max_yearly_generation": 53144,
-        "max_solar_array_size": 178.68349
+        "NumPanels": 91,
+        "YearlyEnergy": 53144,
+        "SolarArea": 178.68349
     },
     {
         "center_latitude": 33.5637658,
         "center_longitude": -83.47907909999999,
-        "max_solar_count": 96,
-        "max_yearly_generation": 56886.36,
-        "max_solar_array_size": 188.50127
+        "NumPanels": 96,
+        "YearlyEnergy": 56886.36,
+        "SolarArea": 188.50127
     },
     {
         "center_latitude": 34.0648562,
         "center_longitude": -83.9843728,
-        "max_solar_count": 24584,
-        "max_yearly_generation": 14673355,
-        "max_solar_array_size": 48272.03
+        "NumPanels": 24584,
+        "YearlyEnergy": 14673355,
+        "SolarArea": 48272.03
     },
     {
         "center_latitude": 34.0644989,
         "center_longitude": -83.9889887,
-        "max_solar_count": 133,
-        "max_yearly_generation": 72900.31,
-        "max_solar_array_size": 261.1528
+        "NumPanels": 133,
+        "YearlyEnergy": 72900.31,
+        "SolarArea": 261.1528
     },
     {
         "center_latitude": 32.5059598,
         "center_longitude": -84.9522684,
-        "max_solar_count": 2479,
-        "max_yearly_generation": 1554896.9,
-        "max_solar_array_size": 4867.6523
+        "NumPanels": 2479,
+        "YearlyEnergy": 1554896.9,
+        "SolarArea": 4867.6523
     },
     {
         "center_latitude": 33.424280599999996,
         "center_longitude": -84.18344019999999,
-        "max_solar_count": 91,
-        "max_yearly_generation": 53882.875,
-        "max_solar_array_size": 178.68349
+        "NumPanels": 91,
+        "YearlyEnergy": 53882.875,
+        "SolarArea": 178.68349
     },
     {
         "center_latitude": 33.801277999999996,
         "center_longitude": -84.21179389999999,
-        "max_solar_count": 66,
-        "max_yearly_generation": 36823.6,
-        "max_solar_array_size": 129.59462
+        "NumPanels": 66,
+        "YearlyEnergy": 36823.6,
+        "SolarArea": 129.59462
     },
     {
         "center_latitude": 33.755446299999996,
         "center_longitude": -84.4008144,
-        "max_solar_count": 11554,
-        "max_yearly_generation": 6704390,
-        "max_solar_array_size": 22686.912
+        "NumPanels": 11554,
+        "YearlyEnergy": 6704390,
+        "SolarArea": 22686.912
     },
     {
         "center_latitude": 32.8293713,
         "center_longitude": -83.6515129,
-        "max_solar_count": 5367,
-        "max_yearly_generation": 3298339,
-        "max_solar_array_size": 10538.399
+        "NumPanels": 5367,
+        "YearlyEnergy": 3298339,
+        "SolarArea": 10538.399
     },
     {
         "center_latitude": 32.539564399999996,
         "center_longitude": -84.8690609,
-        "max_solar_count": 95,
-        "max_yearly_generation": 55470.953,
-        "max_solar_array_size": 186.5377
+        "NumPanels": 95,
+        "YearlyEnergy": 55470.953,
+        "SolarArea": 186.5377
     },
     {
         "center_latitude": 32.028518,
         "center_longitude": -81.1106447,
-        "max_solar_count": 39,
-        "max_yearly_generation": 22275.928,
-        "max_solar_array_size": 76.578636
+        "NumPanels": 39,
+        "YearlyEnergy": 22275.928,
+        "SolarArea": 76.578636
     },
     {
         "center_latitude": 33.1006309,
         "center_longitude": -83.24820009999999,
-        "max_solar_count": 107,
-        "max_yearly_generation": 65360.09,
-        "max_solar_array_size": 210.10037
+        "NumPanels": 107,
+        "YearlyEnergy": 65360.09,
+        "SolarArea": 210.10037
     },
     {
         "center_latitude": 33.7958255,
         "center_longitude": -83.74130509999999,
-        "max_solar_count": 91,
-        "max_yearly_generation": 53854.62,
-        "max_solar_array_size": 178.68349
+        "NumPanels": 91,
+        "YearlyEnergy": 53854.62,
+        "SolarArea": 178.68349
     },
     {
         "center_latitude": 34.052028199999995,
         "center_longitude": -84.0900942,
-        "max_solar_count": 81,
-        "max_yearly_generation": 46875.35,
-        "max_solar_array_size": 159.04794
+        "NumPanels": 81,
+        "YearlyEnergy": 46875.35,
+        "SolarArea": 159.04794
     },
     {
         "center_latitude": 31.1733813,
         "center_longitude": -83.7625091,
-        "max_solar_count": 104,
-        "max_yearly_generation": 62327.855,
-        "max_solar_array_size": 204.2097
+        "NumPanels": 104,
+        "YearlyEnergy": 62327.855,
+        "SolarArea": 204.2097
     },
     {
         "center_latitude": 33.525279999999995,
         "center_longitude": -82.1194893,
-        "max_solar_count": 95,
-        "max_yearly_generation": 53914.117,
-        "max_solar_array_size": 186.5377
+        "NumPanels": 95,
+        "YearlyEnergy": 53914.117,
+        "SolarArea": 186.5377
     },
     {
         "center_latitude": 34.795405699999996,
         "center_longitude": -84.96311539999999,
-        "max_solar_count": 865,
-        "max_yearly_generation": 512384.06,
-        "max_solar_array_size": 1698.475
+        "NumPanels": 865,
+        "YearlyEnergy": 512384.06,
+        "SolarArea": 1698.475
     },
     {
         "center_latitude": 33.7957284,
         "center_longitude": -84.2858057,
-        "max_solar_count": 131,
-        "max_yearly_generation": 75068.47,
-        "max_solar_array_size": 257.22568
+        "NumPanels": 131,
+        "YearlyEnergy": 75068.47,
+        "SolarArea": 257.22568
     },
     {
         "center_latitude": 33.8275986,
         "center_longitude": -84.32863499999999,
-        "max_solar_count": 121,
-        "max_yearly_generation": 69836.055,
-        "max_solar_array_size": 237.59013
+        "NumPanels": 121,
+        "YearlyEnergy": 69836.055,
+        "SolarArea": 237.59013
     },
     {
         "center_latitude": 34.048435,
         "center_longitude": -84.2945933,
-        "max_solar_count": 22518,
-        "max_yearly_generation": 13409740,
-        "max_solar_array_size": 44215.33
+        "NumPanels": 22518,
+        "YearlyEnergy": 13409740,
+        "SolarArea": 44215.33
     },
     {
         "center_latitude": 34.0484262,
         "center_longitude": -84.28851019999999,
-        "max_solar_count": 185,
-        "max_yearly_generation": 104060.69,
-        "max_solar_array_size": 363.25766
+        "NumPanels": 185,
+        "YearlyEnergy": 104060.69,
+        "SolarArea": 363.25766
     },
     {
         "center_latitude": 30.879910799999998,
         "center_longitude": -83.2969127,
-        "max_solar_count": 97,
-        "max_yearly_generation": 60999.668,
-        "max_solar_array_size": 190.46483
+        "NumPanels": 97,
+        "YearlyEnergy": 60999.668,
+        "SolarArea": 190.46483
     },
     {
         "center_latitude": 34.3034167,
         "center_longitude": -83.8164437,
-        "max_solar_count": 426,
-        "max_yearly_generation": 258201.75,
-        "max_solar_array_size": 836.47437
+        "NumPanels": 426,
+        "YearlyEnergy": 258201.75,
+        "SolarArea": 836.47437
     },
     {
         "center_latitude": 33.8459844,
         "center_longitude": -84.2525031,
-        "max_solar_count": 83,
-        "max_yearly_generation": 48909.37,
-        "max_solar_array_size": 162.97505
+        "NumPanels": 83,
+        "YearlyEnergy": 48909.37,
+        "SolarArea": 162.97505
     },
     {
         "center_latitude": 33.9843646,
         "center_longitude": -84.34993759999999,
-        "max_solar_count": 48,
-        "max_yearly_generation": 27306.402,
-        "max_solar_array_size": 94.25063
+        "NumPanels": 48,
+        "YearlyEnergy": 27306.402,
+        "SolarArea": 94.25063
     },
     {
         "center_latitude": 34.2185649,
         "center_longitude": -83.8607681,
-        "max_solar_count": 114,
-        "max_yearly_generation": 64812.152,
-        "max_solar_array_size": 223.84526
+        "NumPanels": 114,
+        "YearlyEnergy": 64812.152,
+        "SolarArea": 223.84526
     },
     {
         "center_latitude": 34.1229905,
         "center_longitude": -84.5254621,
-        "max_solar_count": 79,
-        "max_yearly_generation": 46896.156,
-        "max_solar_array_size": 155.12083
+        "NumPanels": 79,
+        "YearlyEnergy": 46896.156,
+        "SolarArea": 155.12083
     },
     {
         "center_latitude": 33.4098243,
         "center_longitude": -82.0264177,
-        "max_solar_count": 168,
-        "max_yearly_generation": 99425.17,
-        "max_solar_array_size": 329.87723
+        "NumPanels": 168,
+        "YearlyEnergy": 99425.17,
+        "SolarArea": 329.87723
     },
     {
         "center_latitude": 33.8069352,
         "center_longitude": -84.3934882,
-        "max_solar_count": 140,
-        "max_yearly_generation": 80253.28,
-        "max_solar_array_size": 274.89767
+        "NumPanels": 140,
+        "YearlyEnergy": 80253.28,
+        "SolarArea": 274.89767
     },
     {
         "center_latitude": 33.7603496,
         "center_longitude": -84.3868035,
-        "max_solar_count": 3058,
-        "max_yearly_generation": 1399986.6,
-        "max_solar_array_size": 6004.551
+        "NumPanels": 3058,
+        "YearlyEnergy": 1399986.6,
+        "SolarArea": 6004.551
     },
     {
         "center_latitude": 33.4097819,
         "center_longitude": -84.5672633,
-        "max_solar_count": 73,
-        "max_yearly_generation": 41522.406,
-        "max_solar_array_size": 143.33951
+        "NumPanels": 73,
+        "YearlyEnergy": 41522.406,
+        "SolarArea": 143.33951
     },
     {
         "center_latitude": 33.9532885,
         "center_longitude": -84.2346731,
-        "max_solar_count": 67,
-        "max_yearly_generation": 39477.508,
-        "max_solar_array_size": 131.55818
+        "NumPanels": 67,
+        "YearlyEnergy": 39477.508,
+        "SolarArea": 131.55818
     },
     {
         "center_latitude": 34.0015691,
         "center_longitude": -84.16972000000001,
-        "max_solar_count": 65,
-        "max_yearly_generation": 36622.473,
-        "max_solar_array_size": 127.631065
+        "NumPanels": 65,
+        "YearlyEnergy": 36622.473,
+        "SolarArea": 127.631065
     },
     {
         "center_latitude": 33.920990499999995,
         "center_longitude": -84.3415795,
-        "max_solar_count": 146,
-        "max_yearly_generation": 78886.08,
-        "max_solar_array_size": 286.67902
+        "NumPanels": 146,
+        "YearlyEnergy": 78886.08,
+        "SolarArea": 286.67902
     },
     {
         "center_latitude": 33.923739999999995,
         "center_longitude": -84.34124100000001,
-        "max_solar_count": 26783,
-        "max_yearly_generation": 15927622,
-        "max_solar_array_size": 52589.89
+        "NumPanels": 26783,
+        "YearlyEnergy": 15927622,
+        "SolarArea": 52589.89
     },
     {
         "center_latitude": 33.9340635,
         "center_longitude": -84.3500172,
-        "max_solar_count": 68,
-        "max_yearly_generation": 37794.38,
-        "max_solar_array_size": 133.52173
+        "NumPanels": 68,
+        "YearlyEnergy": 37794.38,
+        "SolarArea": 133.52173
     },
     {
         "center_latitude": 33.4707824,
         "center_longitude": -81.9828773,
-        "max_solar_count": 8491,
-        "max_yearly_generation": 4810708.5,
-        "max_solar_array_size": 16672.545
+        "NumPanels": 8491,
+        "YearlyEnergy": 4810708.5,
+        "SolarArea": 16672.545
     },
     {
         "center_latitude": 33.8254166,
         "center_longitude": -84.3676705,
-        "max_solar_count": 97,
-        "max_yearly_generation": 49309.934,
-        "max_solar_array_size": 190.46483
+        "NumPanels": 97,
+        "YearlyEnergy": 49309.934,
+        "SolarArea": 190.46483
     },
     {
         "center_latitude": 33.965623199999996,
         "center_longitude": -84.0108734,
-        "max_solar_count": 83,
-        "max_yearly_generation": 47837.023,
-        "max_solar_array_size": 162.97505
+        "NumPanels": 83,
+        "YearlyEnergy": 47837.023,
+        "SolarArea": 162.97505
     },
     {
         "center_latitude": 33.9437236,
         "center_longitude": -84.1232275,
-        "max_solar_count": 184,
-        "max_yearly_generation": 104319.17,
-        "max_solar_array_size": 361.2941
+        "NumPanels": 184,
+        "YearlyEnergy": 104319.17,
+        "SolarArea": 361.2941
     },
     {
         "center_latitude": 33.7734844,
         "center_longitude": -84.3704668,
-        "max_solar_count": 26,
-        "max_yearly_generation": 14283.605,
-        "max_solar_array_size": 51.052425
+        "NumPanels": 26,
+        "YearlyEnergy": 14283.605,
+        "SolarArea": 51.052425
     },
     {
         "center_latitude": 32.141356,
         "center_longitude": -81.24572460000002,
-        "max_solar_count": 71,
-        "max_yearly_generation": 41628.703,
-        "max_solar_array_size": 139.4124
+        "NumPanels": 71,
+        "YearlyEnergy": 41628.703,
+        "SolarArea": 139.4124
     },
     {
         "center_latitude": 33.3734842,
         "center_longitude": -84.75332370000001,
-        "max_solar_count": 110,
-        "max_yearly_generation": 67304.4,
-        "max_solar_array_size": 215.99103
+        "NumPanels": 110,
+        "YearlyEnergy": 67304.4,
+        "SolarArea": 215.99103
     },
     {
         "center_latitude": 34.184633999999996,
         "center_longitude": -84.1463685,
-        "max_solar_count": 140,
-        "max_yearly_generation": 74435.27,
-        "max_solar_array_size": 274.89767
+        "NumPanels": 140,
+        "YearlyEnergy": 74435.27,
+        "SolarArea": 274.89767
     },
     {
         "center_latitude": 33.715783099999996,
         "center_longitude": -84.214882,
-        "max_solar_count": 166,
-        "max_yearly_generation": 101357.69,
-        "max_solar_array_size": 325.9501
+        "NumPanels": 166,
+        "YearlyEnergy": 101357.69,
+        "SolarArea": 325.9501
     },
     {
         "center_latitude": 32.2746741,
         "center_longitude": -81.22917180000002,
-        "max_solar_count": 116,
-        "max_yearly_generation": 68412.91,
-        "max_solar_array_size": 227.77237
+        "NumPanels": 116,
+        "YearlyEnergy": 68412.91,
+        "SolarArea": 227.77237
     },
     {
         "center_latitude": 33.5756304,
         "center_longitude": -84.4129792,
-        "max_solar_count": 123,
-        "max_yearly_generation": 73317.88,
-        "max_solar_array_size": 241.51724
+        "NumPanels": 123,
+        "YearlyEnergy": 73317.88,
+        "SolarArea": 241.51724
     },
     {
         "center_latitude": 33.9867037,
         "center_longitude": -84.2705095,
-        "max_solar_count": 64,
-        "max_yearly_generation": 35667.434,
-        "max_solar_array_size": 125.66751
+        "NumPanels": 64,
+        "YearlyEnergy": 35667.434,
+        "SolarArea": 125.66751
     },
     {
         "center_latitude": 34.2523787,
         "center_longitude": -84.47303989999999,
-        "max_solar_count": 143,
-        "max_yearly_generation": 76549.45,
-        "max_solar_array_size": 280.78833
+        "NumPanels": 143,
+        "YearlyEnergy": 76549.45,
+        "SolarArea": 280.78833
     },
     {
         "center_latitude": 34.00866,
         "center_longitude": -85.03208359999999,
-        "max_solar_count": 140,
-        "max_yearly_generation": 81668.41,
-        "max_solar_array_size": 274.89767
+        "NumPanels": 140,
+        "YearlyEnergy": 81668.41,
+        "SolarArea": 274.89767
     },
     {
         "center_latitude": 34.062207199999996,
         "center_longitude": -84.3994321,
-        "max_solar_count": 85,
-        "max_yearly_generation": 48708.418,
-        "max_solar_array_size": 166.90216
+        "NumPanels": 85,
+        "YearlyEnergy": 48708.418,
+        "SolarArea": 166.90216
     },
     {
         "center_latitude": 33.950539,
         "center_longitude": -84.51909839999999,
-        "max_solar_count": 181,
-        "max_yearly_generation": 101911.734,
-        "max_solar_array_size": 355.40344
+        "NumPanels": 181,
+        "YearlyEnergy": 101911.734,
+        "SolarArea": 355.40344
     },
     {
         "center_latitude": 34.037075,
         "center_longitude": -84.34271059999999,
-        "max_solar_count": 59,
-        "max_yearly_generation": 34172.184,
-        "max_solar_array_size": 115.84974
+        "NumPanels": 59,
+        "YearlyEnergy": 34172.184,
+        "SolarArea": 115.84974
     },
     {
         "center_latitude": 32.593402,
         "center_longitude": -83.63378089999999,
-        "max_solar_count": 209,
-        "max_yearly_generation": 120679.92,
-        "max_solar_array_size": 410.38297
+        "NumPanels": 209,
+        "YearlyEnergy": 120679.92,
+        "SolarArea": 410.38297
     },
     {
         "center_latitude": 31.1597011,
         "center_longitude": -81.3901557,
-        "max_solar_count": 75,
-        "max_yearly_generation": 48569.58,
-        "max_solar_array_size": 147.26662
+        "NumPanels": 75,
+        "YearlyEnergy": 48569.58,
+        "SolarArea": 147.26662
     },
     {
         "center_latitude": 33.5788812,
         "center_longitude": -83.9619903,
-        "max_solar_count": 152,
-        "max_yearly_generation": 84055.56,
-        "max_solar_array_size": 298.46033
+        "NumPanels": 152,
+        "YearlyEnergy": 84055.56,
+        "SolarArea": 298.46033
     },
     {
         "center_latitude": 32.475147299999996,
         "center_longitude": -83.74670549999999,
-        "max_solar_count": 1073,
-        "max_yearly_generation": 675707.56,
-        "max_solar_array_size": 2106.8943
+        "NumPanels": 1073,
+        "YearlyEnergy": 675707.56,
+        "SolarArea": 2106.8943
     },
     {
         "center_latitude": 33.9177102,
         "center_longitude": -84.3786691,
-        "max_solar_count": 98,
-        "max_yearly_generation": 55958.34,
-        "max_solar_array_size": 192.42838
+        "NumPanels": 98,
+        "YearlyEnergy": 55958.34,
+        "SolarArea": 192.42838
     },
     {
         "center_latitude": 33.9496792,
         "center_longitude": -83.37306629999999,
-        "max_solar_count": 9592,
-        "max_yearly_generation": 5437588.5,
-        "max_solar_array_size": 18834.418
+        "NumPanels": 9592,
+        "YearlyEnergy": 5437588.5,
+        "SolarArea": 18834.418
     },
     {
         "center_latitude": 32.0804902,
         "center_longitude": -81.2823485,
-        "max_solar_count": 100,
-        "max_yearly_generation": 62737.027,
-        "max_solar_array_size": 196.35548
+        "NumPanels": 100,
+        "YearlyEnergy": 62737.027,
+        "SolarArea": 196.35548
     },
     {
         "center_latitude": 32.0226824,
         "center_longitude": -81.0562642,
-        "max_solar_count": 2287,
-        "max_yearly_generation": 1468480.5,
-        "max_solar_array_size": 4490.65
+        "NumPanels": 2287,
+        "YearlyEnergy": 1468480.5,
+        "SolarArea": 4490.65
     },
     {
         "center_latitude": 33.887633199999996,
         "center_longitude": -84.01003949999999,
-        "max_solar_count": 146,
-        "max_yearly_generation": 88164.48,
-        "max_solar_array_size": 286.67902
+        "NumPanels": 146,
+        "YearlyEnergy": 88164.48,
+        "SolarArea": 286.67902
     },
     {
         "center_latitude": 33.2943806,
         "center_longitude": -84.5468952,
-        "max_solar_count": 111,
-        "max_yearly_generation": 67252.38,
-        "max_solar_array_size": 217.95459
+        "NumPanels": 111,
+        "YearlyEnergy": 67252.38,
+        "SolarArea": 217.95459
     },
     {
         "center_latitude": 33.8282036,
         "center_longitude": -84.4926344,
-        "max_solar_count": 22,
-        "max_yearly_generation": 12006.386,
-        "max_solar_array_size": 43.198208
+        "NumPanels": 22,
+        "YearlyEnergy": 12006.386,
+        "SolarArea": 43.198208
     },
     {
         "center_latitude": 33.8519942,
         "center_longitude": -84.0402505,
-        "max_solar_count": 140,
-        "max_yearly_generation": 80715.93,
-        "max_solar_array_size": 274.89767
+        "NumPanels": 140,
+        "YearlyEnergy": 80715.93,
+        "SolarArea": 274.89767
     },
     {
         "center_latitude": 33.8778885,
         "center_longitude": -84.5330587,
-        "max_solar_count": 118,
-        "max_yearly_generation": 69123.89,
-        "max_solar_array_size": 231.69948
+        "NumPanels": 118,
+        "YearlyEnergy": 69123.89,
+        "SolarArea": 231.69948
     },
     {
         "center_latitude": 32.4855228,
         "center_longitude": -82.9353704,
-        "max_solar_count": 299,
-        "max_yearly_generation": 189225.08,
-        "max_solar_array_size": 587.1029
+        "NumPanels": 299,
+        "YearlyEnergy": 189225.08,
+        "SolarArea": 587.1029
     },
     {
         "center_latitude": 33.6127034,
         "center_longitude": -84.6115731,
-        "max_solar_count": 123,
-        "max_yearly_generation": 72745.23,
-        "max_solar_array_size": 241.51724
+        "NumPanels": 123,
+        "YearlyEnergy": 72745.23,
+        "SolarArea": 241.51724
     },
     {
         "center_latitude": 34.0125999,
         "center_longitude": -84.49536490000001,
-        "max_solar_count": 86,
-        "max_yearly_generation": 48826.563,
-        "max_solar_array_size": 168.86572
+        "NumPanels": 86,
+        "YearlyEnergy": 48826.563,
+        "SolarArea": 168.86572
     },
     {
         "center_latitude": 30.839451399999998,
         "center_longitude": -83.3202469,
-        "max_solar_count": 116,
-        "max_yearly_generation": 74605.695,
-        "max_solar_array_size": 227.77237
+        "NumPanels": 116,
+        "YearlyEnergy": 74605.695,
+        "SolarArea": 227.77237
     },
     {
         "center_latitude": 33.3426463,
         "center_longitude": -84.5342826,
-        "max_solar_count": 80,
-        "max_yearly_generation": 45909.7,
-        "max_solar_array_size": 157.08438
+        "NumPanels": 80,
+        "YearlyEnergy": 45909.7,
+        "SolarArea": 157.08438
     },
     {
         "center_latitude": 33.7572245,
         "center_longitude": -84.3963828,
-        "max_solar_count": 6930,
-        "max_yearly_generation": 4098062.8,
-        "max_solar_array_size": 13607.436
+        "NumPanels": 6930,
+        "YearlyEnergy": 4098062.8,
+        "SolarArea": 13607.436
     },
     {
         "center_latitude": 32.4379339,
         "center_longitude": -81.76110299999999,
-        "max_solar_count": 64,
-        "max_yearly_generation": 38408.477,
-        "max_solar_array_size": 125.66751
+        "NumPanels": 64,
+        "YearlyEnergy": 38408.477,
+        "SolarArea": 125.66751
     },
     {
         "center_latitude": 33.8248807,
         "center_longitude": -84.1058077,
-        "max_solar_count": 122,
-        "max_yearly_generation": 70067.99,
-        "max_solar_array_size": 239.5537
+        "NumPanels": 122,
+        "YearlyEnergy": 70067.99,
+        "SolarArea": 239.5537
     },
     {
         "center_latitude": 34.177583399999996,
         "center_longitude": -83.91090349999999,
-        "max_solar_count": 60,
-        "max_yearly_generation": 32952.918,
-        "max_solar_array_size": 117.81329
+        "NumPanels": 60,
+        "YearlyEnergy": 32952.918,
+        "SolarArea": 117.81329
     },
     {
         "center_latitude": 33.957432,
         "center_longitude": -84.05771539999999,
-        "max_solar_count": 83,
-        "max_yearly_generation": 46834.188,
-        "max_solar_array_size": 162.97505
+        "NumPanels": 83,
+        "YearlyEnergy": 46834.188,
+        "SolarArea": 162.97505
     },
     {
         "center_latitude": 33.9882975,
         "center_longitude": -84.0878872,
-        "max_solar_count": 223,
-        "max_yearly_generation": 133420.33,
-        "max_solar_array_size": 437.87274
+        "NumPanels": 223,
+        "YearlyEnergy": 133420.33,
+        "SolarArea": 437.87274
     },
     {
         "center_latitude": 34.0333654,
         "center_longitude": -84.0517854,
-        "max_solar_count": 180,
-        "max_yearly_generation": 108107.734,
-        "max_solar_array_size": 353.43988
+        "NumPanels": 180,
+        "YearlyEnergy": 108107.734,
+        "SolarArea": 353.43988
     },
     {
         "center_latitude": 33.8445217,
         "center_longitude": -84.3711058,
-        "max_solar_count": 470,
-        "max_yearly_generation": 196036.05,
-        "max_solar_array_size": 922.8708
+        "NumPanels": 470,
+        "YearlyEnergy": 196036.05,
+        "SolarArea": 922.8708
     },
     {
         "center_latitude": 33.9172967,
         "center_longitude": -84.46857200000001,
-        "max_solar_count": 59,
-        "max_yearly_generation": 36229.117,
-        "max_solar_array_size": 115.84974
+        "NumPanels": 59,
+        "YearlyEnergy": 36229.117,
+        "SolarArea": 115.84974
     },
     {
         "center_latitude": 34.1528335,
         "center_longitude": -84.1748357,
-        "max_solar_count": 160,
-        "max_yearly_generation": 94054.2,
-        "max_solar_array_size": 314.16876
+        "NumPanels": 160,
+        "YearlyEnergy": 94054.2,
+        "SolarArea": 314.16876
     },
     {
         "center_latitude": 33.6565454,
         "center_longitude": -84.4039102,
-        "max_solar_count": 451,
-        "max_yearly_generation": 261960.56,
-        "max_solar_array_size": 885.56323
+        "NumPanels": 451,
+        "YearlyEnergy": 261960.56,
+        "SolarArea": 885.56323
     },
     {
         "center_latitude": 33.7018719,
         "center_longitude": -84.0891912,
-        "max_solar_count": 120,
-        "max_yearly_generation": 75251.266,
-        "max_solar_array_size": 235.62659
+        "NumPanels": 120,
+        "YearlyEnergy": 75251.266,
+        "SolarArea": 235.62659
     },
     {
         "center_latitude": 32.9221445,
         "center_longitude": -84.3333677,
-        "max_solar_count": 37,
-        "max_yearly_generation": 22891.35,
-        "max_solar_array_size": 72.65153
+        "NumPanels": 37,
+        "YearlyEnergy": 22891.35,
+        "SolarArea": 72.65153
     },
     {
         "center_latitude": 30.8543521,
         "center_longitude": -83.9450646,
-        "max_solar_count": 119,
-        "max_yearly_generation": 72899.33,
-        "max_solar_array_size": 233.66302
+        "NumPanels": 119,
+        "YearlyEnergy": 72899.33,
+        "SolarArea": 233.66302
     },
     {
         "center_latitude": 33.505676199999996,
         "center_longitude": -82.5022501,
-        "max_solar_count": 114,
-        "max_yearly_generation": 68101.516,
-        "max_solar_array_size": 223.84526
+        "NumPanels": 114,
+        "YearlyEnergy": 68101.516,
+        "SolarArea": 223.84526
     },
     {
         "center_latitude": 33.7821077,
         "center_longitude": -84.6097171,
-        "max_solar_count": 71,
-        "max_yearly_generation": 41708.293,
-        "max_solar_array_size": 139.4124
+        "NumPanels": 71,
+        "YearlyEnergy": 41708.293,
+        "SolarArea": 139.4124
     },
     {
         "center_latitude": 31.450723699999998,
         "center_longitude": -83.53125340000001,
-        "max_solar_count": 56,
-        "max_yearly_generation": 35137.836,
-        "max_solar_array_size": 109.959076
+        "NumPanels": 56,
+        "YearlyEnergy": 35137.836,
+        "SolarArea": 109.959076
     },
     {
         "center_latitude": 34.574643699999996,
         "center_longitude": -83.31215859999999,
-        "max_solar_count": 184,
-        "max_yearly_generation": 107002.766,
-        "max_solar_array_size": 361.2941
+        "NumPanels": 184,
+        "YearlyEnergy": 107002.766,
+        "SolarArea": 361.2941
     },
     {
         "center_latitude": 32.9003059,
         "center_longitude": -83.6886293,
-        "max_solar_count": 67,
-        "max_yearly_generation": 39828.258,
-        "max_solar_array_size": 131.55818
+        "NumPanels": 67,
+        "YearlyEnergy": 39828.258,
+        "SolarArea": 131.55818
     },
     {
         "center_latitude": 34.017963,
         "center_longitude": -84.5642074,
-        "max_solar_count": 18821,
-        "max_yearly_generation": 11327346,
-        "max_solar_array_size": 36956.066
+        "NumPanels": 18821,
+        "YearlyEnergy": 11327346,
+        "SolarArea": 36956.066
     },
     {
         "center_latitude": 34.1109872,
         "center_longitude": -84.5556603,
-        "max_solar_count": 78,
-        "max_yearly_generation": 47269.64,
-        "max_solar_array_size": 153.15727
+        "NumPanels": 78,
+        "YearlyEnergy": 47269.64,
+        "SolarArea": 153.15727
     },
     {
         "center_latitude": 33.391473399999995,
         "center_longitude": -84.7630607,
-        "max_solar_count": 239,
-        "max_yearly_generation": 138593.19,
-        "max_solar_array_size": 469.2896
+        "NumPanels": 239,
+        "YearlyEnergy": 138593.19,
+        "SolarArea": 469.2896
     },
     {
         "center_latitude": 34.2634141,
         "center_longitude": -85.1882205,
-        "max_solar_count": 202,
-        "max_yearly_generation": 117137.32,
-        "max_solar_array_size": 396.6381
+        "NumPanels": 202,
+        "YearlyEnergy": 117137.32,
+        "SolarArea": 396.6381
     },
     {
         "center_latitude": 33.5530517,
         "center_longitude": -84.2718643,
-        "max_solar_count": 193,
-        "max_yearly_generation": 111436.23,
-        "max_solar_array_size": 378.9661
+        "NumPanels": 193,
+        "YearlyEnergy": 111436.23,
+        "SolarArea": 378.9661
     },
     {
         "center_latitude": 34.085672300000006,
         "center_longitude": -84.526901,
-        "max_solar_count": 224,
-        "max_yearly_generation": 125136.97,
-        "max_solar_array_size": 439.8363
+        "NumPanels": 224,
+        "YearlyEnergy": 125136.97,
+        "SolarArea": 439.8363
     },
     {
         "center_latitude": 33.6599949,
         "center_longitude": -84.4157352,
-        "max_solar_count": 80,
-        "max_yearly_generation": 49367.066,
-        "max_solar_array_size": 157.08438
+        "NumPanels": 80,
+        "YearlyEnergy": 49367.066,
+        "SolarArea": 157.08438
     },
     {
         "center_latitude": 33.2729755,
         "center_longitude": -84.2929716,
-        "max_solar_count": 152,
-        "max_yearly_generation": 90534.9,
-        "max_solar_array_size": 298.46033
+        "NumPanels": 152,
+        "YearlyEnergy": 90534.9,
+        "SolarArea": 298.46033
     },
     {
         "center_latitude": 33.4630931,
         "center_longitude": -84.2146267,
-        "max_solar_count": 143,
-        "max_yearly_generation": 84368.24,
-        "max_solar_array_size": 280.78833
+        "NumPanels": 143,
+        "YearlyEnergy": 84368.24,
+        "SolarArea": 280.78833
     },
     {
         "center_latitude": 33.5626118,
         "center_longitude": -84.3231611,
-        "max_solar_count": 113,
-        "max_yearly_generation": 65728.74,
-        "max_solar_array_size": 221.8817
+        "NumPanels": 113,
+        "YearlyEnergy": 65728.74,
+        "SolarArea": 221.8817
     },
     {
         "center_latitude": 33.4464779,
         "center_longitude": -84.4675499,
-        "max_solar_count": 343,
-        "max_yearly_generation": 208652.23,
-        "max_solar_array_size": 673.4993
+        "NumPanels": 343,
+        "YearlyEnergy": 208652.23,
+        "SolarArea": 673.4993
     },
     {
         "center_latitude": 33.889804999999996,
         "center_longitude": -84.4690488,
-        "max_solar_count": 19,
-        "max_yearly_generation": 8589.278,
-        "max_solar_array_size": 37.30754
+        "NumPanels": 19,
+        "YearlyEnergy": 8589.278,
+        "SolarArea": 37.30754
     },
     {
         "center_latitude": 33.85011670000001,
         "center_longitude": -84.2072314,
-        "max_solar_count": 224,
-        "max_yearly_generation": 119624.35,
-        "max_solar_array_size": 439.8363
+        "NumPanels": 224,
+        "YearlyEnergy": 119624.35,
+        "SolarArea": 439.8363
     },
     {
         "center_latitude": 33.7018719,
         "center_longitude": -84.0891912,
-        "max_solar_count": 120,
-        "max_yearly_generation": 75251.266,
-        "max_solar_array_size": 235.62659
+        "NumPanels": 120,
+        "YearlyEnergy": 75251.266,
+        "SolarArea": 235.62659
     },
     {
         "center_latitude": 33.505834799999995,
         "center_longitude": -84.1410451,
-        "max_solar_count": 255,
-        "max_yearly_generation": 161208.28,
-        "max_solar_array_size": 500.70648
+        "NumPanels": 255,
+        "YearlyEnergy": 161208.28,
+        "SolarArea": 500.70648
     },
     {
         "center_latitude": 33.9504431,
         "center_longitude": -83.3750144,
-        "max_solar_count": 2213,
-        "max_yearly_generation": 1342814.8,
-        "max_solar_array_size": 4345.3467
+        "NumPanels": 2213,
+        "YearlyEnergy": 1342814.8,
+        "SolarArea": 4345.3467
     },
     {
         "center_latitude": 33.571715499999996,
         "center_longitude": -85.0981261,
-        "max_solar_count": 378,
-        "max_yearly_generation": 232131.94,
-        "max_solar_array_size": 742.22375
+        "NumPanels": 378,
+        "YearlyEnergy": 232131.94,
+        "SolarArea": 742.22375
     },
     {
         "center_latitude": 30.8471734,
         "center_longitude": -83.2891934,
-        "max_solar_count": 2087,
-        "max_yearly_generation": 1315139.5,
-        "max_solar_array_size": 4097.939
+        "NumPanels": 2087,
+        "YearlyEnergy": 1315139.5,
+        "SolarArea": 4097.939
     },
     {
         "center_latitude": 32.0403228,
         "center_longitude": -81.06345720000002,
-        "max_solar_count": 85,
-        "max_yearly_generation": 51747.813,
-        "max_solar_array_size": 166.90216
+        "NumPanels": 85,
+        "YearlyEnergy": 51747.813,
+        "SolarArea": 166.90216
     },
     {
         "center_latitude": 32.2074572,
         "center_longitude": -82.38166199999999,
-        "max_solar_count": 95,
-        "max_yearly_generation": 57328.06,
-        "max_solar_array_size": 186.5377
+        "NumPanels": 95,
+        "YearlyEnergy": 57328.06,
+        "SolarArea": 186.5377
     },
     {
         "center_latitude": 33.7289725,
         "center_longitude": -84.9406973,
-        "max_solar_count": 127,
-        "max_yearly_generation": 69824.97,
-        "max_solar_array_size": 249.37146
+        "NumPanels": 127,
+        "YearlyEnergy": 69824.97,
+        "SolarArea": 249.37146
     },
     {
         "center_latitude": 33.7550131,
         "center_longitude": -84.4158132,
-        "max_solar_count": 122,
-        "max_yearly_generation": 69867.71,
-        "max_solar_array_size": 239.5537
+        "NumPanels": 122,
+        "YearlyEnergy": 69867.71,
+        "SolarArea": 239.5537
     },
     {
         "center_latitude": 33.86402410000001,
         "center_longitude": -84.4776024,
-        "max_solar_count": 114,
-        "max_yearly_generation": 65298.063,
-        "max_solar_array_size": 223.84526
+        "NumPanels": 114,
+        "YearlyEnergy": 65298.063,
+        "SolarArea": 223.84526
     },
     {
         "center_latitude": 33.5129369,
         "center_longitude": -82.05185159999999,
-        "max_solar_count": 87,
-        "max_yearly_generation": 51922.6,
-        "max_solar_array_size": 170.82927
+        "NumPanels": 87,
+        "YearlyEnergy": 51922.6,
+        "SolarArea": 170.82927
     },
     {
         "center_latitude": 32.6180072,
         "center_longitude": -83.6914209,
-        "max_solar_count": 1238,
-        "max_yearly_generation": 787768.56,
-        "max_solar_array_size": 2430.8809
+        "NumPanels": 1238,
+        "YearlyEnergy": 787768.56,
+        "SolarArea": 2430.8809
     },
     {
         "center_latitude": 31.198527300000002,
         "center_longitude": -82.3257754,
-        "max_solar_count": 98,
-        "max_yearly_generation": 59021.598,
-        "max_solar_array_size": 192.42838
+        "NumPanels": 98,
+        "YearlyEnergy": 59021.598,
+        "SolarArea": 192.42838
     },
     {
         "center_latitude": 33.715783099999996,
         "center_longitude": -84.214882,
-        "max_solar_count": 166,
-        "max_yearly_generation": 101357.69,
-        "max_solar_array_size": 325.9501
+        "NumPanels": 166,
+        "YearlyEnergy": 101357.69,
+        "SolarArea": 325.9501
     },
     {
         "center_latitude": 33.945812,
         "center_longitude": -84.6263649,
-        "max_solar_count": 88,
-        "max_yearly_generation": 50073.066,
-        "max_solar_array_size": 172.79283
+        "NumPanels": 88,
+        "YearlyEnergy": 50073.066,
+        "SolarArea": 172.79283
     },
     {
         "center_latitude": 33.7848168,
         "center_longitude": -84.4080129,
-        "max_solar_count": 110,
-        "max_yearly_generation": 61202.96,
-        "max_solar_array_size": 215.99103
+        "NumPanels": 110,
+        "YearlyEnergy": 61202.96,
+        "SolarArea": 215.99103
     },
     {
         "center_latitude": 33.8474375,
         "center_longitude": -84.42883119999999,
-        "max_solar_count": 45,
-        "max_yearly_generation": 22614.521,
-        "max_solar_array_size": 88.35997
+        "NumPanels": 45,
+        "YearlyEnergy": 22614.521,
+        "SolarArea": 88.35997
     },
     {
         "center_latitude": 34.0926495,
         "center_longitude": -84.27649919999999,
-        "max_solar_count": 137,
-        "max_yearly_generation": 77549.15,
-        "max_solar_array_size": 269.00702
+        "NumPanels": 137,
+        "YearlyEnergy": 77549.15,
+        "SolarArea": 269.00702
     },
     {
         "center_latitude": 33.9016428,
         "center_longitude": -84.4781519,
-        "max_solar_count": 134,
-        "max_yearly_generation": 75935.336,
-        "max_solar_array_size": 263.11636
+        "NumPanels": 134,
+        "YearlyEnergy": 75935.336,
+        "SolarArea": 263.11636
     },
     {
         "center_latitude": 33.9779799,
         "center_longitude": -84.41846749999999,
-        "max_solar_count": 133,
-        "max_yearly_generation": 75622.65,
-        "max_solar_array_size": 261.1528
+        "NumPanels": 133,
+        "YearlyEnergy": 75622.65,
+        "SolarArea": 261.1528
     },
     {
         "center_latitude": 34.9334797,
         "center_longitude": -83.8458714,
-        "max_solar_count": 1233,
-        "max_yearly_generation": 689763.6,
-        "max_solar_array_size": 2421.0632
+        "NumPanels": 1233,
+        "YearlyEnergy": 689763.6,
+        "SolarArea": 2421.0632
     },
     {
         "center_latitude": 32.8794088,
         "center_longitude": -83.7582932,
-        "max_solar_count": 55,
-        "max_yearly_generation": 33237.9,
-        "max_solar_array_size": 107.995514
+        "NumPanels": 55,
+        "YearlyEnergy": 33237.9,
+        "SolarArea": 107.995514
     }
 ]
