@@ -110,8 +110,8 @@ def process():
 
         # Save extracted building insights to the DataFrame
         if building_insight:
-            df["center_latitude"] = building_insight["center_latitude"]
-            df["center_longitude"] = building_insight["center_longitude"]
+            df.at[index, "center_latitude"] = building_insight["center_latitude"]
+            df.at[index, "center_longitude"] = building_insight["center_longitude"]
             df.at[index, "max_solar_count"] = building_insight["max_solar_count"]
             df.at[index, "max_yearly_generation"] = building_insight["max_yearly_generation"]
             df.at[index, "max_solar_array_size"] = building_insight["max_solar_array_size"]
