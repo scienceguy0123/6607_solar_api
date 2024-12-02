@@ -29,8 +29,8 @@ This tool processes address data, retrieves geolocation information, and gathers
   - Flagged rows where solar panels are outside the range (**10 to 2000**).
 - Filtering results:
   - **4 rows with no solar panels (original: 266 rows → final: 262 rows).**
-  - **33 rows have abnormal latitude/longitude (from: 262 rows → to: 229).**
-  - **22 rows have abnormal solar panel counts (from: 229 rows → to: 207).**
+  - **33 rows have abnormal latitude/longitude (from: 262 rows → to: 229 rows).**
+  - **22 rows have abnormal solar panel counts (from: 229 rows → to: 207 rows).**
 
 ## Visualizations
 The `demo.py` script generates the following visualizations:

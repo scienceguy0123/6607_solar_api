@@ -1,7 +1,7 @@
 # config.py
 
 # Google Maps/Solar API Key
-GOOGLE_API_KEY = "Your_API_KEY"
+GOOGLE_API_KEY = "YOUR_API_KEY"
 
 # Path to the input CSV file containing addresses
 INPUT_FILE = "raw_addr_data.csv"
