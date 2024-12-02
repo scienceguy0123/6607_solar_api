@@ -1,7 +1,7 @@
 # config.py
 
 # Google Maps API Key
-API_KEY = "AIzaSyAfQV04S9La5YzhvLg_CfwrOD-yyIf-Udo"
+API_KEY = "Your_API_Key"
 
 # File paths
 READ_SRC_CSV = "addr_lat_lgt.csv"  # Input CSV file
