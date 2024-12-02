@@ -1,27 +1,18 @@
 # config.py
 
-# Google Maps API Key
-API_KEY = "Your_API_Key"
+# Google Maps/Solar API Key
+GOOGLE_API_KEY = "Your_API_KEY"
 
-# File paths
-READ_SRC_CSV = "addr_lat_lgt.csv"  # Input CSV file
-WRITE_RESULT_CSV_DATA_VERIF = "deliverable1.csv" # Output CSV file
-WRITE_RESULT_CSV_OUTPUT_VERIF = "deliverable2.csv"
-WRITE_RESULT_JSON = "output.json"  # Output JSON file
+# Path to the input CSV file containing addresses
+INPUT_FILE = "raw_addr_data.csv"
 
-# Input file column
-LATITUDE = "lat" 
-LONGTIDUE = "lgt"
-STORE_NAME = "Store_Name"
-ADDRESS = "Address"
+# Path to the output CSV and JSON files
+DELIVERABLE_1 = "deliverable1.csv"
+DELIVERABLE_2 = "deliverable2.csv"
+RESPONSE_JSON_DIR = "response_json"
 
-# Save original responses (True/False)
-SAVE_ORIGIN_RESPONSE = True
-# Directory for saving original responses
-ORIGIN_RESPONSE_DIR = "original_response"
-
-# Some filters and threshould
-# Threshold for latitude/longitude difference
+# Some filters and threshold
+# for latitude/longitude difference
 LAT_LNG_THRESHOLD = 0.0005
 # Extreme panel values
 MIN_PANELS = 10

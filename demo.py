@@ -58,7 +58,7 @@ plt.xticks(log_ticks, [f'{int(val):,}' for val in int_ticks])
 plt.savefig(f'{figure_direct}/Histogram_KDE.png')
 plt.show()
 
-# Pairplot
+# Pair_plot
 sns.pairplot(df_subset, diag_kind='kde', plot_kws={'alpha': 0.7})
 plt.suptitle('Scatter Plot Matrix of Solar Panel Metrics', y=1.02)
 plt.savefig(f'{figure_direct}/Pair_Plot.png')

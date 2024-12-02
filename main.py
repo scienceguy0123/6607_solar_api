@@ -2,152 +2,219 @@ import pandas as pd
 import requests
 import json
 import os
+import time
 from tqdm import tqdm
+
 try:
-    from config import API_KEY, READ_SRC_CSV, WRITE_RESULT_CSV_DATA_VERIF,WRITE_RESULT_CSV_OUTPUT_VERIF, \
-        WRITE_RESULT_JSON, SAVE_ORIGIN_RESPONSE, ORIGIN_RESPONSE_DIR, LATITUDE, LONGTIDUE, STORE_NAME, ADDRESS, \
-            LAT_LNG_THRESHOLD, MIN_PANELS, MAX_PANELS
+    from config import GOOGLE_API_KEY, INPUT_FILE, DELIVERABLE_1, DELIVERABLE_2, RESPONSE_JSON_DIR, \
+        LAT_LNG_THRESHOLD, MIN_PANELS, MAX_PANELS
 except ImportError:
-    print("Error: Can't find config.py file! Please ensure the config.py file exists and contains the necessary configuration information.")
+    print("Error: Can't find config.py file! Please ensure the config.py file exists and contains the necessary "
+          "configuration information.")
     exit(1)
 
-# Parameters
-# URL for the Google Solar API
-url = "https://solar.googleapis.com/v1/buildingInsights:findClosest"
 
-# Get and extract required attributes from API response
-def get_building_insights(latitude, longitude, quality="HIGH"):
-    params = {
-        "location.latitude": latitude,
-        "location.longitude": longitude,
-        "requiredQuality": quality,
-        "key": API_KEY
-    }
+# Google Maps geocoding
+def get_latitude_longitude(input_file):
+    """
+    Get latitude and longitude for each address using Google Maps API.
 
-    try:
-        response = requests.get(url, params=params).json()
+    Parameters:
+    input_file (str): Path to the input CSV file.
 
-        # Check for error in the response
-        if "error" in response:
-            if response["error"]["status"] == "NOT_FOUND" and quality == "HIGH":
-                return get_building_insights(latitude, longitude, quality="MEDIUM")
-            else:
-                print(f"Error for ({latitude}, {longitude}): {response['error']['message']}")
-                return response, None
+    Returns:
+    pd.DataFrame: Updated DataFrame with latitude and longitude columns.
+    """
+    geocode_url = f"https://maps.googleapis.com/maps/api/geocode/json"
+    df = pd.read_csv(input_file)
 
-        # Extract relevant information for summary
-        building_insight = {
-            "center_latitude": response['center']['latitude'],
-            "center_longitude": response['center']['longitude'],
-            "NumPanels": response['solarPotential']['solarPanelConfigs'][-1]['panelsCount'],
-            "YearlyEnergy": response['solarPotential']['solarPanelConfigs'][-1]['yearlyEnergyDcKwh'],
-            "SolarArea": response['solarPotential']['maxArrayAreaMeters2']
+    if 'Address' not in df.columns or 'Store_Name' not in df.columns:
+        raise ValueError("The input file does not contain the 'Address' or 'Store_Name' column.")
+
+    df['lat'] = None
+    df['lgt'] = None
+
+    successful_count = 0  # Counter for successful geocoding
+
+    for index, row in tqdm(df.iterrows(), total=len(df), desc="Geocoding addresses"):
+        # Geocode the address (first step to get lat/lng)
+        geocode_params = {
+            "address": row["Address"],
+            "key": GOOGLE_API_KEY
         }
+        try:
+            geocode_response = requests.get(geocode_url, params=geocode_params).json()
 
-        return response, building_insight
+            if "results" in geocode_response and len(geocode_response["results"]) > 0:
+                location = geocode_response["results"][0]["geometry"]["location"]
+                df.at[index, 'lat'] = location['lat']
+                df.at[index, 'lgt'] = location['lng']
+                successful_count += 1  # Increment successful geocoding count
+            else:
+                print(f"Warning: Could not find latitude and longitude for address: {row['Address']}")
+                continue
+        except Exception as e:
+            print(f"Unexpected error for ({row['Address']}): {e}")
+            continue
 
-    except Exception as e:
-        print(f"An unexpected error occurred for ({latitude}, {longitude}): {e}")
-        return None, None
+    # Output the number of successful geo-codings
+    print(f"Total addresses processed: {len(df)}")
+    print(f"Successfully geocoded addresses: {successful_count}")
+    print(f"Addresses without geocoding: {len(df) - successful_count}")
+
+    return df
 
 
-# Process the CSV and extract building insights
-def process():
-    # Save each original response as a separate JSON file
-    if SAVE_ORIGIN_RESPONSE:
-        os.makedirs(ORIGIN_RESPONSE_DIR, exist_ok=True)
+# Get building insights
+def get_building_insights(df):
+    """
+    Get building insights from the Google Solar API.
 
-    # Read the CSV file using pandas
-    df = pd.read_csv(READ_SRC_CSV)
+    Parameters:
+    df (pd.DataFrame): Input DataFrame with latitude and longitude.
 
-    # Check if required columns exist
-    required_columns = [LATITUDE, LONGTIDUE, STORE_NAME, ADDRESS]
-    for col in required_columns:
-        if col not in df.columns:
-            raise ValueError(f"The input file does not contain the required column: '{col}'.")
-
-    # Add new columns for the extracted information
+    Returns:
+    pd.DataFrame: Updated DataFrame with building insights columns.
+    """
+    url = "https://solar.googleapis.com/v1/buildingInsights:findClosest"
     df["center_latitude"] = None
     df["center_longitude"] = None
     df["NumPanels"] = None
     df["YearlyEnergy"] = None
     df["SolarArea"] = None
 
-    # Create tqdm progress bar
-    for index, row in tqdm(df.iterrows(), total=len(df), desc="Processing rows"):
-        # Get building insights
-        response, building_insight = get_building_insights(row[LATITUDE], row[LONGTIDUE])
+    os.makedirs(RESPONSE_JSON_DIR, exist_ok=True)
 
-        # Save the response in a JSON file if required
-        if SAVE_ORIGIN_RESPONSE:
-            # Extract storename and address
-            storename = row.get(STORE_NAME, "unknown").replace(" ", "_").replace("/", "-")
-            address = row.get(ADDRESS, "unknown").replace(" ", "_").replace("/", "-")
-            # Construct the filename dynamically
-            filename = f"{ORIGIN_RESPONSE_DIR}/{storename}_{address}.json"
+    high_quality_count = 0  # Count for high-quality insights
+    medium_quality_count = 0  # Count for medium-quality insights
+    not_found_count = 0  # Count for not-found results
 
+    for index, row in tqdm(df.iterrows(), total=len(df), desc="Getting building insights"):
+        params = {
+            "location.latitude": row["lat"],
+            "location.longitude": row["lgt"],
+            "requiredQuality": "HIGH",
+            "key": GOOGLE_API_KEY
+        }
+        try:
+            response = requests.get(url, params=params).json()
+
+            # Check for error and fallback to medium quality
+            if "error" in response:
+                if response["error"]["status"] == "NOT_FOUND":
+                    params["requiredQuality"] = "MEDIUM"
+                    response = requests.get(url, params=params).json()
+
+                    if "error" in response:
+                        not_found_count += 1  # Increment not-found count
+                        print(f"Not found for ({row['Address']}) at medium quality.")
+                        continue
+                    else:
+                        medium_quality_count += 1  # Increment medium-quality count
+                else:
+                    not_found_count += 1  # Increment not-found count
+                    print(f"Error for ({row['Address']}): {response['error']['message']}")
+                    continue
+            else:
+                high_quality_count += 1  # Increment high-quality count
+
+            building_insight = {
+                "center_latitude": response['center']['latitude'],
+                "center_longitude": response['center']['longitude'],
+                "NumPanels": response['solarPotential']['solarPanelConfigs'][-1]['panelsCount'],
+                "YearlyEnergy": response['solarPotential']['solarPanelConfigs'][-1]['yearlyEnergyDcKwh'],
+                "SolarArea": response['solarPotential']['maxArrayAreaMeters2']
+            }
+
+            # Save response JSON files in directory
+            store_name = row.get("Store_Name", "unknown").replace(" ", "_").replace("/", "-")
+            filename = f"{RESPONSE_JSON_DIR}/{store_name}.json"
             with open(filename, "w") as response_file:
                 json.dump(response, response_file, indent=4)
 
-        # Save extracted building insights to the DataFrame
-        if building_insight:
             df.at[index, "center_latitude"] = building_insight["center_latitude"]
             df.at[index, "center_longitude"] = building_insight["center_longitude"]
             df.at[index, "NumPanels"] = building_insight["NumPanels"]
             df.at[index, "YearlyEnergy"] = building_insight["YearlyEnergy"]
             df.at[index, "SolarArea"] = building_insight["SolarArea"]
 
-    # Extract only relevant insights for saving to output JSON, ignoring rows with no insights
-    subset_column = ["center_latitude", "center_longitude", "NumPanels", "YearlyEnergy", "SolarArea"]
-    insights = df.dropna(subset=subset_column)
-    insights_list = insights[subset_column].to_dict(orient="records")
+        except Exception as e:
+            not_found_count += 1  # Increment not-found count for exceptions
+            print(f"Unexpected error for ({row['Address']}): {e}")
+            continue
 
-    # Save the extracted building insights to a JSON file
-    with open(WRITE_RESULT_JSON, "w") as json_file:
-        json.dump(insights_list, json_file, indent=4)
-    
-    # Apply filters
-    # Check latitude and longitude difference thresholds
+    # Output the counts
+    print(f"Total addresses processed: {len(df)}")
+    print(f"High-quality insights found: {high_quality_count}")
+    print(f"Medium-quality insights found: {medium_quality_count}")
+    print(f"Not found: {not_found_count}")
+
+    return df
+
+
+# Apply filters and save results
+def apply_filters_and_save(df):
+    """
+    Apply filters, save deliverable files, and generate a JSON report.
+
+    Parameters:
+    df (pd.DataFrame): DataFrame with geocoded addresses and building insights.
+    """
+    # Apply data verification flag
     df["DataVerificationFlag"] = (
         (df["center_latitude"].notnull()) &
         (df["center_longitude"].notnull()) &
         (
-            (abs(df[LATITUDE] - df["center_latitude"]) > LAT_LNG_THRESHOLD) |
-            (abs(df[LONGTIDUE] - df["center_longitude"]) > LAT_LNG_THRESHOLD)
+            (abs(df["lat"] - df["center_latitude"]) > LAT_LNG_THRESHOLD) |
+            (abs(df["lgt"] - df["center_longitude"]) > LAT_LNG_THRESHOLD)
         )
     ).astype(int)
 
-    # Filter out rows with no panels
-    df = df[df["NumPanels"].notnull() & (df["NumPanels"] > 0)]
-
-    # Flag extreme small and large panel values
+    # Apply output verification flag
     df["OutputVerificationFlag"] = (
         (df["NumPanels"] < MIN_PANELS) | (df["NumPanels"] > MAX_PANELS)
     ).astype(int)
 
-    # Count the number of rows and abnormal flags
-    total_rows = len(df)
-    data_verification_flag_count = df["DataVerificationFlag"].sum()
-    output_verification_flag_count = df["OutputVerificationFlag"].sum()
+    # Filter rows with valid NumPanels
+    df = df[df["NumPanels"].notnull() & (df["NumPanels"] > 0)]
 
-    # Print the counts
-    print(f"Total number of rows after filtering: {total_rows}")
-    print(f"Number of rows with DataVerificationFlag set to 1: {data_verification_flag_count}")
-    print(f"Number of rows with OutputVerificationFlag set to 1: {output_verification_flag_count}")
+    # Count flags
+    data_verification_count = df["DataVerificationFlag"].sum()
+    output_verification_count = df["OutputVerificationFlag"].sum()
 
-    # Select different columns to 
-    deliverable_1_columns = [STORE_NAME, ADDRESS, LATITUDE, LONGTIDUE, "center_latitude", "center_longitude", "DataVerificationFlag"]
-    deliveravle_2_columns = [STORE_NAME, ADDRESS, LATITUDE, LONGTIDUE, "NumPanels", "YearlyEnergy", "SolarArea", "OutputVerificationFlag"]
+    # Define deliverable columns
+    deliverable_1_columns = ["Store_Name", "Address", "lat", "lgt", "center_latitude", "center_longitude",
+                             "DataVerificationFlag"]
+    deliverable_2_columns = ["Store_Name", "Address", "lat", "lgt", "NumPanels", "YearlyEnergy", "SolarArea",
+                             "OutputVerificationFlag"]
+
+    # Create deliverables
     deliverable_1_df = df[deliverable_1_columns]
-    deliverable_2_df = df[deliveravle_2_columns]
+    deliverable_2_df = df[deliverable_2_columns]
 
-    # Save the updated DataFrame to new CSV files
-    deliverable_1_df.to_csv(WRITE_RESULT_CSV_DATA_VERIF, index=False)
-    deliverable_2_df.to_csv(WRITE_RESULT_CSV_OUTPUT_VERIF, index=False)
+    # Save to CSV
+    deliverable_1_df.to_csv(DELIVERABLE_1, index=False)
+    deliverable_2_df.to_csv(DELIVERABLE_2, index=False)
 
-    print(f"Processing completed! Results saved to {WRITE_RESULT_JSON}, {WRITE_RESULT_CSV_DATA_VERIF} and {WRITE_RESULT_CSV_OUTPUT_VERIF}")
+    # Output results
+    print(f"Number of rows without none-value: {len(df)}")
+    print(f"Number of rows with DataVerificationFlag set to 1: {data_verification_count}")
+    print(f"Number of rows with OutputVerificationFlag set to 1: {output_verification_count}")
+    print(f"Processing completed! Results saved to {DELIVERABLE_1} and {DELIVERABLE_2}")
+    
 
-
+# Main execution
 if __name__ == "__main__":
-    # Process the CSV file and extract building insights
-    process()
+    # Record the start time
+    start_time = time.time()
+
+    geocoded_df = get_latitude_longitude(INPUT_FILE)
+    insights_df = get_building_insights(geocoded_df)
+    apply_filters_and_save(insights_df)
+
+    # Record the end time
+    end_time = time.time()
+
+    # Calculate and print the total runtime
+    total_time = end_time - start_time
+    print(f"Total runtime: {total_time:.2f} seconds")
