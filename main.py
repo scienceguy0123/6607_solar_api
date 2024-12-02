@@ -178,9 +178,14 @@ def apply_filters_and_save(df):
     # Filter rows with valid NumPanels
     df = df[df["NumPanels"].notnull() & (df["NumPanels"] > 0)]
 
-    # Count flags
+    # Count DataVerificationFlag
     data_verification_count = df["DataVerificationFlag"].sum()
-    output_verification_count = df["OutputVerificationFlag"].sum()
+
+    # Exclude rows with DataVerificationFlag set to 1 from deliverable2
+    df_deliverable2 = df[df["DataVerificationFlag"] == 0].copy()
+
+    # Recalculate OutputVerificationFlag count excluding rows with DataVerificationFlag set to 1
+    output_verification_count = df_deliverable2["OutputVerificationFlag"].sum()
 
     # Define deliverable columns
     deliverable_1_columns = ["Store_Name", "Address", "lat", "lgt", "center_latitude", "center_longitude",
@@ -190,7 +195,7 @@ def apply_filters_and_save(df):
 
     # Create deliverables
     deliverable_1_df = df[deliverable_1_columns]
-    deliverable_2_df = df[deliverable_2_columns]
+    deliverable_2_df = df_deliverable2[deliverable_2_columns]
 
     # Save to CSV
     deliverable_1_df.to_csv(DELIVERABLE_1, index=False)
@@ -201,7 +206,7 @@ def apply_filters_and_save(df):
     print(f"Number of rows with DataVerificationFlag set to 1: {data_verification_count}")
     print(f"Number of rows with OutputVerificationFlag set to 1: {output_verification_count}")
     print(f"Processing completed! Results saved to {DELIVERABLE_1} and {DELIVERABLE_2}")
-    
+
 
 # Main execution
 if __name__ == "__main__":

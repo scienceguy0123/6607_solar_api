@@ -28,9 +28,9 @@ This tool processes address data, retrieves geolocation information, and gathers
   - Flagged rows where differences in latitude/longitude exceed a threshold (**0.0005**).
   - Flagged rows where solar panels are outside the range (**10 to 2000**).
 - Filtering results:
-  - **Dropped 4 rows with no solar panels (original: 266 rows → final: 262 rows).**
-  - **33 rows in `deliverable1.csv` flagged for abnormal latitude/longitude.**
-  - **32 rows in `deliverable2.csv` flagged for abnormal solar panel counts.**
+  - **4 rows with no solar panels (original: 266 rows → final: 262 rows).**
+  - **33 rows have abnormal latitude/longitude (from: 262 rows → to: 229).**
+  - **22 rows have abnormal solar panel counts (from: 229 rows → to: 207).**
 
 ## Visualizations
 The `demo.py` script generates the following visualizations:
@@ -47,16 +47,17 @@ The `demo.py` script generates the following visualizations:
   ![Scatter Plot Matrix of Solar Panel Metrics](./figure/Pair_Plot.png)
 
 ## Descriptive Statistics
-| Statistic | NumPanels   | YearlyEnergy       | SolarArea     |
-|-----------|-------------|--------------------|---------------|
-| Count     | 230.000000  | 2.300000e+02      | 230.000000    |
-| Mean      | 212.213043  | 1.251063e+05      | 416.691951    |
-| Std       | 303.344966  | 1.836664e+05      | 595.634477    |
-| Min       | 19.000000   | 8.589278e+03      | 37.307540     |
-| 25%       | 81.250000   | 4.688055e+04      | 159.538830    |
-| 50%       | 114.000000  | 6.727839e+04      | 223.845260    |
-| 75%       | 180.750000  | 1.037875e+05      | 354.912550    |
-| Max       | 1992.000000 | 1.268119e+06      | 3911.401400   |
+
+| Statistic | NumPanels | YearlyEnergy | SolarArea |
+|-----------|-----------|--------------|-----------|
+| Count     | 207       | 207          | 207       |
+| Mean      | 199.57    | 117080.32    | 391.87    |
+| Std       | 302.14    | 182374.91    | 593.27    |
+| Min       | 19        | 8589.27      | 37.31     |
+| 25%       | 80        | 45869.46     | 157.08    |
+| 50%       | 112       | 65095.88     | 219.92    |
+| 75%       | 163.5     | 99911.24     | 321.04    |
+| Max       | 1992      | 1268119.35   | 3911.40   |
 
 ## Requirements
 - Python 3.x
