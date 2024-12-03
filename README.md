@@ -19,7 +19,6 @@ This tool processes address data, retrieves geolocation information, and gathers
 
 ### Dec 1st, 2024
 - Outputs the following files and directory:
-  - `output.json`
   - `deliverable1.csv`
   - `deliverable2.csv`
   - `original_response/`
@@ -69,7 +68,7 @@ The `demo.py` script generates the following visualizations:
 ## Configuration
 Before running the tool, configure the `config.py` file:
 - `GOOGLE_API_KEY`: Your Google Maps API key.
-- `INPUT_FILE`: Path to the input CSV file containing addresses (default: `addr.csv`).
+- `INPUT_FILE`: Path to the input CSV file containing addresses (default: `raw_addr_data.csv`).
 - `DELIVERABLE_1`: Path for the first filtered CSV output.
 - `DELIVERABLE_2`: Path for the second filtered CSV output.
 - `RESPONSE_JSON_DIR`: Directory for storing JSON responses.
@@ -93,7 +92,6 @@ The input CSV file must have the following columns:
 
 ## Output
 - **Files**:
-  - `output.json`: Consolidated JSON of solar insights.
   - `deliverable1.csv`: Filtered data with geolocation verification.
   - `deliverable2.csv`: Filtered data with solar panel verification.
 - **Directory**:
